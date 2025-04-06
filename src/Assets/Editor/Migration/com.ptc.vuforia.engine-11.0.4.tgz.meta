@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 832d2f68460cc4afbaf88c142861257c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206265
+  packageName: Vuforia VFX Library
+  packageVersion: 11.0.4
+  assetPath: Assets/Editor/Migration/com.ptc.vuforia.engine-11.0.4.tgz
+  uploadId: 732296
