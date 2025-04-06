@@ -1,0 +1,1034 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32683 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/Unity Projects/RoblockLLy-23-24/src
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55032
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: E:/Unity Projects/RoblockLLy-23-24/src
+E:/Unity Projects/RoblockLLy-23-24/src
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39596]  Target information:
+
+Player connection [39596]  * "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 3149480011 [EditorId] 3149480011 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KTNAS2A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39596]  * "[IP] 169.254.130.81 [Port] 0 [Flags] 2 [Guid] 3149480011 [EditorId] 3149480011 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KTNAS2A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39596]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3149480011 [EditorId] 3149480011 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KTNAS2A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39596] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39596] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.28 ms, found 7 plugins.
+Preloading 3 native plugins for Editor in 2.88 ms.
+Initialize engine version: 6000.0.33f1 (433b0a79340b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projects/RoblockLLy-23-24/src/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.7270
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006232 seconds.
+- Loaded All Assemblies, in  0.367 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 662ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (122ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (256ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/Third-Party/uBlockly/Assets/Source/Libs/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.847 seconds
+Refreshing native plugins compatible for Editor in 5.29 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Roblocklly_EPH
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 1662ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (207ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (819ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (708ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.59 ms, found 7 plugins.
+Preloading 3 native plugins for Editor in 0.08 ms.
+Unloading 149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5899 unused Assets / (8.3 MB). Loaded Objects now: 6538.
+Memory consumption went from 154.4 MB to 146.0 MB.
+Total: 24.138500 ms (FindLiveObjects: 1.068700 ms CreateObjectMapping: 1.290300 ms MarkObjects: 11.133600 ms  DeleteObjects: 10.644900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1060458.928007 seconds.
+  path: Assets/Editor/Vuforia/AreaTargetSample/Data/Textures/44.png
+  artifactKey: Guid(a5ebcb98220b648f088738b6893bf564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/AreaTargetSample/Data/Textures/44.png using Guid(a5ebcb98220b648f088738b6893bf564) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7b6347fe33fb99839f258e8becb2b45') in 0.0692839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Editor/Vuforia/AreaTargetSample/Data/Textures/58.png
+  artifactKey: Guid(6d484e8b408ec4516918f913dbf17225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/AreaTargetSample/Data/Textures/58.png using Guid(6d484e8b408ec4516918f913dbf17225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4826107f7145d73c1abf781c0841c057') in 0.0161896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Editor/Vuforia/AreaTargetSample/Data/Textures/49.png
+  artifactKey: Guid(899e822298b534c08a0312da6801bb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/AreaTargetSample/Data/Textures/49.png using Guid(899e822298b534c08a0312da6801bb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aad5f68af0705eddcb3fd16b4397189') in 0.014765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Editor/Vuforia/AreaTargetSample/Data/Textures/57.png
+  artifactKey: Guid(08c391cbd639a47c99ec6701f62296e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/AreaTargetSample/Data/Textures/57.png using Guid(08c391cbd639a47c99ec6701f62296e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90df0ff46b2f003c9c9f1fea3a67dbac') in 0.0161113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039525 seconds.
+  path: Assets/Third-Party/ProjectCar/Ayakasi/Textures/ayakashi_04.jpg
+  artifactKey: Guid(2c8c7030f8adc1645aae383aebd8e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/ProjectCar/Ayakasi/Textures/ayakashi_04.jpg using Guid(2c8c7030f8adc1645aae383aebd8e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a21ee40ea5b2f1e3a7d68a587a1c1a56') in 0.0687061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014178 seconds.
+  path: Assets/Third-Party/ProjectCar/Ayakasi/Textures/ayakashi_06.jpg
+  artifactKey: Guid(992ff0d0897dcf24ba93c6ed6a70af4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/ProjectCar/Ayakasi/Textures/ayakashi_06.jpg using Guid(992ff0d0897dcf24ba93c6ed6a70af4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52ef8263f9833b288b6403ddb518a271') in 0.0389179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Common/Sprites/backarrow_white.png
+  artifactKey: Guid(4cab74927ff984b80905cb005348a8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/Sprites/backarrow_white.png using Guid(4cab74927ff984b80905cb005348a8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8d772722103f9a68b18b250f34273fd') in 0.0434543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Third-Party/uBlockly/Assets/Source/UGUI/Textures/Blocks/input_value_connection.png
+  artifactKey: Guid(7f0d6d3b2eb4c46458ad6dfda4c79d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/uBlockly/Assets/Source/UGUI/Textures/Blocks/input_value_connection.png using Guid(7f0d6d3b2eb4c46458ad6dfda4c79d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a054facb8fd03a2e5120a206a62f4300') in 0.0153195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x216.png
+  artifactKey: Guid(ad05b3745e8844194bae1994e47cd9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x216.png using Guid(ad05b3745e8844194bae1994e47cd9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2a7b2d6fabb8b98d2f97fbf259a9d2f') in 0.0131953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Third-Party/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5652ed1baaf4712bfa99ae9acf7e8920') in 0.0569513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Common/Sprites/background_black.png
+  artifactKey: Guid(220a261d5e0aa3449a8be2c0042343eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/Sprites/background_black.png using Guid(220a261d5e0aa3449a8be2c0042343eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02c67b36ba6caf2f82402ca0ecb84b9e') in 0.0114712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Third-Party/ProjectCar/Kaiju/Textures/Kaiju_02.png
+  artifactKey: Guid(8ec79634878e68e49b0c6a195264d725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/ProjectCar/Kaiju/Textures/Kaiju_02.png using Guid(8ec79634878e68e49b0c6a195264d725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5a00cee1f7a1295c5f5c1cda07574c5') in 0.0882189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082238 seconds.
+  path: Assets/Third-Party/ProjectCar/Kaiju/Textures/Kaiju_03.png
+  artifactKey: Guid(ba74c9007cecb884a9e9ec8093e60e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/ProjectCar/Kaiju/Textures/Kaiju_03.png using Guid(ba74c9007cecb884a9e9ec8093e60e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b77954e9df6377b701949dce30fc7440') in 0.0648817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Third-Party/ProjectCar/Kaiju/Textures/Kaiju_04_other.png
+  artifactKey: Guid(a6dd66e2afffc9e45a3bf56f8439dfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/ProjectCar/Kaiju/Textures/Kaiju_04_other.png using Guid(a6dd66e2afffc9e45a3bf56f8439dfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb0aad95af1eacd40a8261f4944688b6') in 0.0117754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029627 seconds.
+  path: Assets/Third-Party/ProjectCar/Kaiju/Textures/Kaiju_05.png
+  artifactKey: Guid(622eb2ed14d38434c9bad88957860a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/ProjectCar/Kaiju/Textures/Kaiju_05.png using Guid(622eb2ed14d38434c9bad88957860a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95126e716e70cb236496195e47e8653a') in 0.0577078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001582 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape002_style03_color07.png
+  artifactKey: Guid(f339e140877eb0f46840df6db6e766a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape002_style03_color07.png using Guid(f339e140877eb0f46840df6db6e766a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4bc6a1ce741f1a4c7998e3e32415d6c') in 0.0111937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026987 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape002_style03_color08.png
+  artifactKey: Guid(4e3e657c35c6a5943bd3c1c68046b7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape002_style03_color08.png using Guid(4e3e657c35c6a5943bd3c1c68046b7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b672aff194bce7d94d639a192f6324f') in 0.0116557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016714 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape002_style03_color10.png
+  artifactKey: Guid(809b66d756c989f4fa3a09f1644100ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape002_style03_color10.png using Guid(809b66d756c989f4fa3a09f1644100ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd0282e0b13cc9e7fc4c7113ab6a188f') in 0.0123629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003688 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape002_style03_color11.png
+  artifactKey: Guid(05ad24e353231f94da12098e5de6d31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape002_style03_color11.png using Guid(05ad24e353231f94da12098e5de6d31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbf2bb9ea369c50be27a57a544668a68') in 0.0116566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037549 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color01.png
+  artifactKey: Guid(fcc3beee2def5584695a668ebf132104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color01.png using Guid(fcc3beee2def5584695a668ebf132104) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a17fe183833e39d5b0ef44acd6f65bcc') in 0.0123082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003946 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color02.png
+  artifactKey: Guid(ef6723d4b5884df49b87a4e0bb8f926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color02.png using Guid(ef6723d4b5884df49b87a4e0bb8f926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a142ad90aeec3df75d13c5812b1fcc87') in 0.0113708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color03.png
+  artifactKey: Guid(864815dac3aeae645817d8cfef5b3cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color03.png using Guid(864815dac3aeae645817d8cfef5b3cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9215875e97ada19ccf19393f3828e435') in 0.0109262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015449 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color05.png
+  artifactKey: Guid(1cba3b2c12d8cd748b2c667241858833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color05.png using Guid(1cba3b2c12d8cd748b2c667241858833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54a3e0aefb40e5f0c91e105e53db899e') in 0.0113711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009632 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color07.png
+  artifactKey: Guid(7421fbb26fec4dd42a5998eca50d2002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color07.png using Guid(7421fbb26fec4dd42a5998eca50d2002) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0002c371fe135fa16f62b926e7bf3168') in 0.0104443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031563 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color08.png
+  artifactKey: Guid(dbc37e4c15ed4754e898e01620db6257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color08.png using Guid(dbc37e4c15ed4754e898e01620db6257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f4cc099480c127771be7c92b69503d0') in 0.0114517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023443 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color09.png
+  artifactKey: Guid(a6c914691b11e5e46931a4bc12c891fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color09.png using Guid(a6c914691b11e5e46931a4bc12c891fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f39985f7e6e1df08d0eef515e2abba5') in 0.0160324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009291 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color11.png
+  artifactKey: Guid(71dd2583b603b154b8296bad7df9b7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color11.png using Guid(71dd2583b603b154b8296bad7df9b7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8217035bdaff8c8bbf85164cacafc173') in 0.0112649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053601 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color12.png
+  artifactKey: Guid(008626a5aa6e20948a78a985f3ce9241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape003_style01_color12.png using Guid(008626a5aa6e20948a78a985f3ce9241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e38ca38e726cec7f3f529af93c6630') in 0.0138804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003264 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape003_style02_color01.png
+  artifactKey: Guid(ed2094dff565e3241a473f261b600987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape003_style02_color01.png using Guid(ed2094dff565e3241a473f261b600987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '355dcb1af4a9c515f6722821433bd1f5') in 0.0125424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012761 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape003_style02_color03.png
+  artifactKey: Guid(b676b8d264f91b942b08b32f25dc0836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape003_style02_color03.png using Guid(b676b8d264f91b942b08b32f25dc0836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e98a65681da9f32a52d828dec4788e93') in 0.0132848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025519 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color05.png
+  artifactKey: Guid(bde12fbbf509e1142a6a57985a7de53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color05.png using Guid(bde12fbbf509e1142a6a57985a7de53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '748c2a4f437ee3d6df1d1a364ff9223e') in 0.0120575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018412 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color06.png
+  artifactKey: Guid(3c8d439ed3f286444a7bb3b73c290290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color06.png using Guid(3c8d439ed3f286444a7bb3b73c290290) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c7adb6b1373fde264a3dab8002907cd') in 0.0122281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012810 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color07.png
+  artifactKey: Guid(3dc7f02d88465994ba7fb7684127d4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color07.png using Guid(3dc7f02d88465994ba7fb7684127d4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e75ecc9beadd26ff084c629d49f3f7a') in 0.0113942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004705 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color08.png
+  artifactKey: Guid(33ee64ef56809ab4488fb3db8ed55a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color08.png using Guid(33ee64ef56809ab4488fb3db8ed55a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18642405e6c4c1fbf8b3e9c791281661') in 0.0110854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317936 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color09.png
+  artifactKey: Guid(278978e291b5baa46989ee4fe71a2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color09.png using Guid(278978e291b5baa46989ee4fe71a2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d97eee44cc00f83dc21ceadfe674830') in 0.0137857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004926 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color10.png
+  artifactKey: Guid(6148ad9f7c97c7d4ea01608af598a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color10.png using Guid(6148ad9f7c97c7d4ea01608af598a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a8f5474beae6f716ad5f573d4f765a0') in 0.011176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007695 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color11.png
+  artifactKey: Guid(ec567b4add1c33d47bdb28542668a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color11.png using Guid(ec567b4add1c33d47bdb28542668a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db97358e1663c18b550308cf14743cb1') in 0.0102464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002686 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color12.png
+  artifactKey: Guid(c1ca4b9206f859d46bf970c9458e3710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape021_style02_color12.png using Guid(c1ca4b9206f859d46bf970c9458e3710) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75294e341f7ce9a5e75456010344ed59') in 0.0125525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004748 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color01.png
+  artifactKey: Guid(0b2748a743664be46a3561db001bd0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color01.png using Guid(0b2748a743664be46a3561db001bd0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24d00449bda47e89c2e006ce2e73e169') in 0.0117031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003278 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color02.png
+  artifactKey: Guid(7739e266e77005f4c8c965b8693b09a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color02.png using Guid(7739e266e77005f4c8c965b8693b09a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83a226fcb3e02cddc60c654c162eacaf') in 0.0107697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004713 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color03.png
+  artifactKey: Guid(1e484edc779a1f24dbd7f50372b483e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color03.png using Guid(1e484edc779a1f24dbd7f50372b483e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd117f474c544775b15fea739ba25ddd') in 0.0120604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006002 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color04.png
+  artifactKey: Guid(3a5b91fffe34baf4bbb35a220cbb0349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color04.png using Guid(3a5b91fffe34baf4bbb35a220cbb0349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a3f2a2632406e8d5138bca7794fbc0f') in 0.0104582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011590 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color06.png
+  artifactKey: Guid(b568b15d2d7475445bdfff9de5e17e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color06.png using Guid(b568b15d2d7475445bdfff9de5e17e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5536001aae6d5184712eb4373d4f2c31') in 0.0108956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008902 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color07.png
+  artifactKey: Guid(32e555b0a1b6ba046b9e84a04ea65bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color07.png using Guid(32e555b0a1b6ba046b9e84a04ea65bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efa7f970f0c7fcc0e4d2baae675a8dc5') in 0.0129783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002204 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color08.png
+  artifactKey: Guid(ecd174b10b85b7044a740a6242592fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color08.png using Guid(ecd174b10b85b7044a740a6242592fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f4979a09e1ba37f2264944bca7b2549') in 0.0105146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012318 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color09.png
+  artifactKey: Guid(137d035aa6999fd4f9a40a42ffed4286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color09.png using Guid(137d035aa6999fd4f9a40a42ffed4286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '855e3d5fbf83b72685466fd51c6159e2') in 0.0134597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021114 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color11.png
+  artifactKey: Guid(656a936e348ffae40a7a155060409b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color11.png using Guid(656a936e348ffae40a7a155060409b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab6f313fb0cea60a2616475c62d666d7') in 0.0113973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002413 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color12.png
+  artifactKey: Guid(1a7da7450d000094e889769c43e3efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape021_style03_color12.png using Guid(1a7da7450d000094e889769c43e3efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a98dbbbbea0e31dcc92adda1b297ec8') in 0.0116605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002984 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape022_style01_color01.png
+  artifactKey: Guid(d46696504a7589a4dbf361e4bb253650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape022_style01_color01.png using Guid(d46696504a7589a4dbf361e4bb253650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bba4da9b79f97fbe3e1f82f7397db44') in 0.0138514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017541 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape031_style01_color07.png
+  artifactKey: Guid(42ab5e5315d0fec47bf0dec5de0db6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape031_style01_color07.png using Guid(42ab5e5315d0fec47bf0dec5de0db6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3947fe3b77ffa1231789675ed6937dd5') in 0.0202343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011181 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape031_style01_color09.png
+  artifactKey: Guid(7b4561014f10fd64d935e0dc1728030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape031_style01_color09.png using Guid(7b4561014f10fd64d935e0dc1728030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19688ed68fca45a57d18ba842983364f') in 0.0111553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024268 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape031_style01_color10.png
+  artifactKey: Guid(3bbc3dfa34fc15549844b11d7ad8e73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape031_style01_color10.png using Guid(3bbc3dfa34fc15549844b11d7ad8e73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80a58b13027a3812413a83c4005a5c67') in 0.0113374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017842 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape031_style01_color12.png
+  artifactKey: Guid(bdaf104433fd17b49a0e04d8bd7f88d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape031_style01_color12.png using Guid(bdaf104433fd17b49a0e04d8bd7f88d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbb33d9608a8a96f2152a044d82928a0') in 0.0117121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017942 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color02.png
+  artifactKey: Guid(2130cd71b663adc498c155e19938551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color02.png using Guid(2130cd71b663adc498c155e19938551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd26b98f67d002ccc81c1d5f64fd2190') in 0.0116991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003569 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color03.png
+  artifactKey: Guid(6cd3fe70b6a4bc140950232749501cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color03.png using Guid(6cd3fe70b6a4bc140950232749501cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec918985d839b5efbf3b3bde5cf403b6') in 0.0102269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014040 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color05.png
+  artifactKey: Guid(54f0f3bd6c44ca14faa7009b3f09df0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color05.png using Guid(54f0f3bd6c44ca14faa7009b3f09df0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05b87e1fa7aa68e038087b2c0f78dc1c') in 0.0142644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color06.png
+  artifactKey: Guid(9eacbee0fa5265a4d8a2626d5666ce5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color06.png using Guid(9eacbee0fa5265a4d8a2626d5666ce5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cf5ffe85bdd82c4e2c6242c14c776c7') in 0.0110379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002828 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color07.png
+  artifactKey: Guid(60cdc88fc0b4e15439353c77fd5dbd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color07.png using Guid(60cdc88fc0b4e15439353c77fd5dbd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a5d5a4b62e5a4262c4e7cf969ffa946') in 0.0111894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012783 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color08.png
+  artifactKey: Guid(e539007b48be2e84796fc9e4e720060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color08.png using Guid(e539007b48be2e84796fc9e4e720060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2a0d9d948a04e610fbae4054d5133d7') in 0.0137911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023419 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color09.png
+  artifactKey: Guid(33892bdeee65caf4eb6f12d40af6100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color09.png using Guid(33892bdeee65caf4eb6f12d40af6100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '696c0b4df500277e72992d86d5b50e10') in 0.013804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005738 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color10.png
+  artifactKey: Guid(089b0478a4e1b334cbdafee10c415e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color10.png using Guid(089b0478a4e1b334cbdafee10c415e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ac1147437f401a43ce71c6e4d6f0417') in 0.0137264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033087 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color12.png
+  artifactKey: Guid(99e38131e2aaade43a6e8949015a89da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape031_style02_color12.png using Guid(99e38131e2aaade43a6e8949015a89da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16b3116744f4cc5ae272f39a8e454328') in 0.0135692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005082 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape031_style03_color01.png
+  artifactKey: Guid(429992abb6559c949921e0b0c17ba7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape031_style03_color01.png using Guid(429992abb6559c949921e0b0c17ba7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce887b91a350b161dc0129b72d0a5300') in 0.0126117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006883 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape031_style03_color02.png
+  artifactKey: Guid(a5f04e4e59fb8bd44a00be7c5240dd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape031_style03_color02.png using Guid(a5f04e4e59fb8bd44a00be7c5240dd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a05555ca1c50ffad54d818c2f16db89') in 0.013188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016836 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape031_style03_color03.png
+  artifactKey: Guid(26caad4236756534586744ec73682eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape031_style03_color03.png using Guid(26caad4236756534586744ec73682eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e62d2ca3c01dee8716d8807963643f61') in 0.0206188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261926 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color06.png
+  artifactKey: Guid(5b82427f103dba049977bd43b736296b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color06.png using Guid(5b82427f103dba049977bd43b736296b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd9f5a2bc88ef4baa24dc4b5ab9458f') in 0.3423523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115130 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color09.png
+  artifactKey: Guid(5cf81dc4a2150ab4690ea44678f17984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color09.png using Guid(5cf81dc4a2150ab4690ea44678f17984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29f4b5b8a0182b6f81f9917a1ce5a01c') in 0.0115316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079418 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color10.png
+  artifactKey: Guid(390514475e8561542a4dbe4b1df43d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color10.png using Guid(390514475e8561542a4dbe4b1df43d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecb27eaca96a9ef7fa117e2f79d25103') in 0.012226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053585 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color11.png
+  artifactKey: Guid(5aef7f47a121f474a94582cf7d2b29b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color11.png using Guid(5aef7f47a121f474a94582cf7d2b29b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4499df2d4c156cc17c1c9302082df980') in 0.0115606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.216913 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color12.png
+  artifactKey: Guid(32394080dfee95e4dad42cf8f0d27f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape035_style02_color12.png using Guid(32394080dfee95e4dad42cf8f0d27f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58db948a426d52f6894f82d6878b4af8') in 0.0119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448340 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color01.png
+  artifactKey: Guid(8dbb1754653a6d04f85643bea0fed4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color01.png using Guid(8dbb1754653a6d04f85643bea0fed4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2900ae87e751be56a2be041991e0e105') in 0.0132017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277730 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color02.png
+  artifactKey: Guid(f5bf5c20c5f419745bde57d7b9433fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color02.png using Guid(f5bf5c20c5f419745bde57d7b9433fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd09f7e30bd04c589748fdc16ee870ae') in 0.0122479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534216 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color03.png
+  artifactKey: Guid(ca922074744df244884bd61f474afc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color03.png using Guid(ca922074744df244884bd61f474afc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16316e111913a9dcdfaa667da05eb4f7') in 0.0119649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.592298 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color04.png
+  artifactKey: Guid(de239658fbac2594f850e9276ac7d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color04.png using Guid(de239658fbac2594f850e9276ac7d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28c09da1e4d709c9f8b2ffd958930b08') in 0.012074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006118 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color05.png
+  artifactKey: Guid(d6898071b6d41da4a8147792ac408e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color05.png using Guid(d6898071b6d41da4a8147792ac408e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0804e7b81232d96a2168c1e27e6ff7e') in 0.0142786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002375 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color06.png
+  artifactKey: Guid(17c536e541d43764382c7cdebb282d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color06.png using Guid(17c536e541d43764382c7cdebb282d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ed43618b60304a5343eda734410cfdd') in 0.011821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015695 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color08.png
+  artifactKey: Guid(eeeb69b2d830e3e4694b43cc08193ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color08.png using Guid(eeeb69b2d830e3e4694b43cc08193ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25c3ec1f06f171144d20277b97195059') in 0.0133052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003096 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color10.png
+  artifactKey: Guid(9b9980e2dddc7c74f91408471bcd2972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color10.png using Guid(9b9980e2dddc7c74f91408471bcd2972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f4468841e49f283bfa7704133ea053d') in 0.0115057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color11.png
+  artifactKey: Guid(315612cb49693774eb78561c6640b8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color11.png using Guid(315612cb49693774eb78561c6640b8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8610380cdbff5c88396bccf106e0699') in 0.011698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002963 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color12.png
+  artifactKey: Guid(fb743a054095ed142a1f135b0e2d76bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape035_style03_color12.png using Guid(fb743a054095ed142a1f135b0e2d76bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b483d4ec19da656a28371b36b6a06f17') in 0.0121713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009048 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape036_style01_color01.png
+  artifactKey: Guid(c2595cd5a014890428d332c7c14a3e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape036_style01_color01.png using Guid(c2595cd5a014890428d332c7c14a3e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7c88b74a4868f8ff5191fa675908c37') in 0.0123263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007055 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape036_style01_color02.png
+  artifactKey: Guid(077dcd4b68dbbff41baedf005ef41546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape036_style01_color02.png using Guid(077dcd4b68dbbff41baedf005ef41546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63d3723fdf5a5b640f289d25991d378a') in 0.0144235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024070 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape043_style02_color08.png
+  artifactKey: Guid(893d6ac1a4dc43949a801c615d5f5d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape043_style02_color08.png using Guid(893d6ac1a4dc43949a801c615d5f5d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88e60e2c53a90b3bb1457a1354064ce4') in 0.0122152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043042 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape043_style02_color10.png
+  artifactKey: Guid(af9a9aab36c0a564095f04d01773fec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape043_style02_color10.png using Guid(af9a9aab36c0a564095f04d01773fec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb727af6bcc97e0257a2ade6f009e727') in 0.0120646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021916 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style02/shape043_style02_color12.png
+  artifactKey: Guid(ddc735b2dd3cfc742beb143b3badd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style02/shape043_style02_color12.png using Guid(ddc735b2dd3cfc742beb143b3badd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab66060eafdae0d2962c0b3721ecc78d') in 0.0123587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006058 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color01.png
+  artifactKey: Guid(4c4f0d0b13f6c7f45bf764bccb28de66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color01.png using Guid(4c4f0d0b13f6c7f45bf764bccb28de66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e69922b9da01fd8b9d3cd6b7835b8069') in 0.0139919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001611 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color02.png
+  artifactKey: Guid(b520fbc89d4b97c419605ac7d89c9e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color02.png using Guid(b520fbc89d4b97c419605ac7d89c9e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54f6da4953d685cc54b1bd76d00e0638') in 0.0117626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003615 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color03.png
+  artifactKey: Guid(920fd589bf9126740bf8b2dc20cd6a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color03.png using Guid(920fd589bf9126740bf8b2dc20cd6a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd64c9f4103b64dfbfb637d616959d86e') in 0.0133053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002479 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color04.png
+  artifactKey: Guid(1dcbc40ac5c8e61418b223f8e4e59055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color04.png using Guid(1dcbc40ac5c8e61418b223f8e4e59055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '081a9c13c7647525b1d1b65c4648ef2b') in 0.0117551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004868 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color05.png
+  artifactKey: Guid(d60a67d2df91dcb499a5de12f21971da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color05.png using Guid(d60a67d2df91dcb499a5de12f21971da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72a32607b2bed746aa85fbb629dad27e') in 0.0112738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027308 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color06.png
+  artifactKey: Guid(f5987349d8851294882c3a6eaf206026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color06.png using Guid(f5987349d8851294882c3a6eaf206026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21630f5982b0e2f521eb7807eb67d047') in 0.012994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006854 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color07.png
+  artifactKey: Guid(504046c48b8fe584196ff027ab735e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color07.png using Guid(504046c48b8fe584196ff027ab735e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4ac86a7d69c36000d736bd04d81b9cf') in 0.0122251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002971 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color08.png
+  artifactKey: Guid(b74f6965152df224c88b2bffcaeda6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color08.png using Guid(b74f6965152df224c88b2bffcaeda6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa700456410a510cfae43881e4ac6d87') in 0.0113482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027780 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color10.png
+  artifactKey: Guid(4b0527a88c20046439fd36bad5e8a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color10.png using Guid(4b0527a88c20046439fd36bad5e8a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1139041191b4eb46c971db2a276762be') in 0.0136628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002190 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color11.png
+  artifactKey: Guid(0cd6ac8141df3ff43a0353676d8c7a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color11.png using Guid(0cd6ac8141df3ff43a0353676d8c7a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8725f22b61206e346d5c5ee152c7f9f0') in 0.0114184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001131 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color12.png
+  artifactKey: Guid(789a21e17a5d55a4280440f5ad68c41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style03/shape043_style03_color12.png using Guid(789a21e17a5d55a4280440f5ad68c41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a6e865e2e0dd3f8e2133db50f2d014c') in 0.0118376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034166 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape044_style01_color02.png
+  artifactKey: Guid(9d7bd1b65d8f57f42880440ce6ac2fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape044_style01_color02.png using Guid(9d7bd1b65d8f57f42880440ce6ac2fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '788bd105eff1196136fcfdf3e972e333') in 0.0128201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046848 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape044_style01_color03.png
+  artifactKey: Guid(585610c0f57762a4eaac3e6d2f2008f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape044_style01_color03.png using Guid(585610c0f57762a4eaac3e6d2f2008f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a49b597b3ffc0204950910ddf713bafa') in 0.0134622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007904 seconds.
+  path: Assets/Third-Party/Pastel Icons/resource/style01/shape044_style01_color04.png
+  artifactKey: Guid(f163f4cce33b7114baf53e825ff074b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third-Party/Pastel Icons/resource/style01/shape044_style01_color04.png using Guid(f163f4cce33b7114baf53e825ff074b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21f174ef17c914147b1b12f41a2cb8f9') in 0.013732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204239 seconds.
+  path: Assets/SamplesResources/SceneAssets/Icons/VFX_AT_light_wave.png
+  artifactKey: Guid(ec792b3ae625348678c1f6ea53e56ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplesResources/SceneAssets/Icons/VFX_AT_light_wave.png using Guid(ec792b3ae625348678c1f6ea53e56ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8861f1802267578ebe620638777613e0') in 0.0197073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SamplesResources/SceneAssets/Icons/VFX_MT_xray.png
+  artifactKey: Guid(3d252c93c1a714e3cabe27f799cca483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplesResources/SceneAssets/Icons/VFX_MT_xray.png using Guid(3d252c93c1a714e3cabe27f799cca483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b73c0c6812b0d3309f3fc277fc9db79f') in 0.0144385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SamplesResources/SceneAssets/Icons/VFX_MT_xray_axial_scan.png
+  artifactKey: Guid(3c7b10af027984afc8cc86b0315bdd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplesResources/SceneAssets/Icons/VFX_MT_xray_axial_scan.png using Guid(3c7b10af027984afc8cc86b0315bdd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2cbdb0bcdd1f45b78e1842084077a90') in 0.0171022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SamplesResources/SceneAssets/Icons/VFX_GP_obj_placement.png
+  artifactKey: Guid(1f78fa90358c840b19a3d5587f6567f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplesResources/SceneAssets/Icons/VFX_GP_obj_placement.png using Guid(1f78fa90358c840b19a3d5587f6567f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0943b13020b37bdb28674a3ddd3933e') in 0.0168044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SamplesResources/SceneAssets/Icons/VFX_MT_radial_scan.png
+  artifactKey: Guid(ea4b0b8df850a4e06bdbe45dfade4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplesResources/SceneAssets/Icons/VFX_MT_radial_scan.png using Guid(ea4b0b8df850a4e06bdbe45dfade4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd51c3eff5c4b393c74c6f94147531db7') in 0.0170606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.260660 seconds.
+  path: Assets/SamplesResources/SceneAssets/GroundPlane/Effects/XRay/Textures/Vuforia_Mars.jpg
+  artifactKey: Guid(6dbc6b1c38fa24241b72119bad01999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Effects/XRay/Textures/Vuforia_Mars.jpg using Guid(6dbc6b1c38fa24241b72119bad01999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ba1c521d07efc0f4856d841617df078') in 0.0163951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

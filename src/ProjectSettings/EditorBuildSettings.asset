@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menus/0-MainMenu.unity
+    guid: 5a73bf09c2889894ca2449608f248866
+  - enabled: 1
+    path: Assets/Scenes/Menus/1-LevelMenu.unity
+    guid: 1552f80d3f0973d46a65337f9535b4c2
+  - enabled: 1
+    path: Assets/Scenes/Menus/2-RobotMenu.unity
+    guid: 3d388d725bf97bf429a90a6347373d06
+  - enabled: 1
+    path: Assets/Scenes/Menus/3-CreatorPanel.unity
+    guid: 7ebc4b6feab53cb42be372d0807d8c30
+  - enabled: 1
+    path: Assets/Scenes/Menus/4-LevelCreator.unity
+    guid: 4833dc06651978d47922d95c5fa2aeb1
+  - enabled: 1
+    path: Assets/Scenes/Menus/5-LevelLoader.unity
+    guid: 33e9ab2107b7e644fb66762a3dd13621
+  - enabled: 1
+    path: Assets/Scenes/Levels/6-Custom Level.unity
+    guid: aee0db8db5a462e468eaa17756df03c9
+  - enabled: 1
+    path: Assets/Scenes/Levels/Legacy/Labyrinth.unity
+    guid: fbadd03d0d7a3ae42ac1bccdb0c0e379
+  - enabled: 1
+    path: Assets/Scenes/Levels/Legacy/Infrared.unity
+    guid: 29395a54ff9479140a07f3ef24f79325
+  - enabled: 1
+    path: Assets/Scenes/Levels/Legacy/Color.unity
+    guid: 6248dcdc874ccb5418d6d8408373fe1d
+  - enabled: 1
+    path: Assets/Scenes/Levels/Legacy/Balance.unity
+    guid: 9e1ef42c5832d224686f91b575d7ef7a
+  - enabled: 1
+    path: Assets/Scenes/Levels/Main/1-1.unity
+    guid: 653bb01dbf9a1934fa977c13b53cf526
+  - enabled: 1
+    path: Assets/Scenes/Levels/Main/1-2.unity
+    guid: 9b03e4f4296c59641a00dd3d232b36c5
+  - enabled: 1
+    path: Assets/Scenes/Levels/Main/1-3.unity
+    guid: 5c1d610eb64b80449ae28d24a9b5a2cf
+  - enabled: 1
+    path: Assets/Scenes/Levels/Main/1-4.unity
+    guid: 8876bf7cbedb7b34099a5ee456ec8f51
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/0-Splash.unity
+    guid: 7238041e8d31f4d439b8851a5d4bb6fa
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/1-Menu.unity
+    guid: 1763269b9427b4a44957006a02f06c30
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/RecognitionEffects/ContourAxial.unity
+    guid: c40cad03fa97e4155abfedc72a1e82f7
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/RecognitionEffects/ContourRadial.unity
+    guid: 23f186b06a7d84d1f83daa3b5ff1f652
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/RecognitionEffects/PhantomAxial.unity
+    guid: 81b56f3d44e16487b81d78cf66ad00e3
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/RecognitionEffects/XRayAxial.unity
+    guid: c70462eba1f2a4a63b7e13fe705bb663
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/VisualizationEffects/HeatMap.unity
+    guid: ddfcf4a4d7e094df4bedff400d5e9f09
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/AreaTargets/VisualizationEffects/Minimap.unity
+    guid: 6a82174bc2b764b488945d2dfa2158b9
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/VisualizationEffects/XRay.unity
+    guid: 89845f1d6f9814862bbc7734b0740733
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/VisualizationEffects/LookInside.unity
+    guid: 67ae4f7206b7e4488bfe822f5a7f9b45
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/Combined/MultiVFX.unity
+    guid: 58c09ba4da1c8492ea6f3be81b6a2e93
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/GroundPlane/Effects/XRay.unity
+    guid: d50f7846992aa42da83785d6d7441ee3
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/GroundPlane/Effects/InteractivePlacement.unity
+    guid: 0551973ed1a934331bd4708428471383
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/AreaTargets/RecognitionEffects/ContourScan.unity
+    guid: 1850d5b38b68e4bc880aac2239ca8db6
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/ModelTargets/RecognitionEffects/LightWave.unity
+    guid: f5bae6d9466f14b57b8af13c4bd8009c
+  - enabled: 0
+    path: Assets/SamplesResources/Scenes/AreaTargets/RecognitionEffects/LightWave.unity
+    guid: 29dda4baa1fc6431099eed40516602a4
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
