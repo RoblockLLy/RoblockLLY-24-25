@@ -1,0 +1,16 @@
+{
+    "name": "ScriptsRobots",
+    "rootNamespace": "",
+    "references": [
+        "GUID:70a8744fd51c17641be105c0328ac2a7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
