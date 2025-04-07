@@ -59,7 +59,7 @@
     <UnityVersion>6000.0.33f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\Usuario\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Usuario\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -82,6 +82,7 @@
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Field\FieldFactory.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Toolbox\BaseToolbox.cs" />
+    <Compile Include="Assets\Scripts\Tests\RobotTests.cs" />
     <Compile Include="Assets\Scripts\Menus\MainMenuManager.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Toolbox\ClassicToolbox.cs" />
@@ -135,7 +136,6 @@
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Views\BaseView.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\CSharp\CSharpGenerator.cs" />
-    <Compile Include="Assets\Scripts\Persistance\VaultManager.cs" />
     <Compile Include="Assets\Scripts\Levels\Builder\GenericBuildingBlock.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\CSharp\Generators\Loop_CSharp.cs" />
     <Compile Include="Assets\Scripts\Levels\Managers\CommsManager.cs" />
@@ -146,7 +146,6 @@
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\CSharp\Generators\Text_CSharp.cs" />
     <Compile Include="Assets\Scripts\Levels\Managers\RobotCameraHandleRotator.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\WorkspaceView.cs" />
-    <Compile Include="Assets\Scripts\Stats\StatsManager.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Dialogs\MutatorDialogs\ItemListMutatorDialog.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -784,24 +783,24 @@
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Vuforia.Unity.Wrapper">
+      <HintPath>Library\PackageCache\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Wrapper.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+    <Reference Include="Vuforia.Unity.Engine">
+      <HintPath>Library\PackageCache\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Vuforia.Unity.Wrapper">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Wrapper.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Vuforia.Unity.Engine">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1296,20 +1295,20 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Formats.Alembic.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
@@ -1448,12 +1447,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
@@ -1512,11 +1511,13 @@
   <ItemGroup>
     <ProjectReference Include="VFXCoreEditor.csproj" />
     <ProjectReference Include="VFXLibraryScripts.csproj" />
+    <ProjectReference Include="ScriptsPersistance.csproj" />
     <ProjectReference Include="ScriptsSensors.csproj" />
     <ProjectReference Include="VuforiaVersionCheckerScripts.csproj" />
     <ProjectReference Include="CommonScripts.csproj" />
     <ProjectReference Include="ScriptsRobots.csproj" />
     <ProjectReference Include="VFXCore.csproj" />
+    <ProjectReference Include="ScriptsStats.csproj" />
     <ProjectReference Include="CommonEditor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />

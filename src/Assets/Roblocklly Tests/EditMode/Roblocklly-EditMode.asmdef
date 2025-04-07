@@ -5,7 +5,9 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "ScriptsRobots",
-        "ScriptsSensors"
+        "ScriptsSensors",
+        "ScriptsPersistance",
+        "ScriptsStats"
     ],
     "includePlatforms": [
         "Editor"
