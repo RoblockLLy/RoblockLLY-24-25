@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1085.6
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Unity Version Control
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 44
+  controlID: 87
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -140,12 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1489.6
+    width: 1503.2
     height: 1029.6
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 45
+  controlID: 794
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -166,12 +166,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1489.6
-    height: 674.4
+    width: 1503.2
+    height: 673.6
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 46
+  controlID: 43
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -191,7 +191,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 316.8
-    height: 674.4
+    height: 673.6
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 16}
@@ -209,25 +209,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 316.8
     y: 0
-    width: 1172.8
-    height: 674.4
-  m_MinSize: {x: 202, y: 226}
+    width: 1186.3999
+    height: 673.6
+  m_MinSize: {x: 52, y: 76}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,23 +238,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 674.4
-    width: 1489.6
-    height: 355.19995
-  m_MinSize: {x: 101, y: 126}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 19}
+    y: 673.6
+    width: 1503.2
+    height: 356
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,23 +265,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: PlasticWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1489.6
+    x: 1503.2
     y: 0
-    width: 558.4
+    width: 544.80005
     height: 1029.6
-  m_MinSize: {x: 276, y: 76}
+  m_MinSize: {x: 601, y: 376}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 20}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -305,8 +305,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 316.80002
     y: 70.4
-    width: 1170.8
-    height: 648.4
+    width: 1184.3999
+    height: 647.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -339,9 +339,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Unity Version Control\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1489.6
-    y: 70.4
-    width: 557.4
+    x: 1504.2
+    y: 24
+    width: 543.80005
     height: 1003.6
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -377,10 +377,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Test Runner\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 316.80002
-    y: 70.4
-    width: 1170.8
-    height: 648.4
+    x: 317.8
+    y: 24
+    width: 1184.3999
+    height: 647.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -393,12 +393,12 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 2081
+    ID: 7798
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 434.4
-    - 144.80002
+    - 432.8
+    - 144.79999
     relativeSizes:
     - 0.75
     - 0.25
@@ -408,7 +408,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 579.2
+    lastTotalSize: 577.6
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_TestListGUIs:
   - m_Window: {fileID: 14}
     runProgress:
-      RunGuid: 3ccc33df-2f45-4481-bb91-ab9e69cbfdbb
+      RunGuid: 62ecb851-71dd-4a5b-acd6-9f6b7f19f30a
       ExecutionSettings:
         m_TargetPlatform: 0
         m_HasTargetPlatform: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
           categoryNames: []
           assemblyNames: []
         filters:
-        - testMode: 1
+        - testMode: 2
           testNames: []
           groupNames: []
           categoryNames: []
@@ -447,11 +447,11 @@ MonoBehaviour:
           disableNestedEnumeratorBugfix: 0
         randomOrderSeed: 0
       HasFinished: 1
-      Progress: 0.99999934
+      Progress: 0.99999994
       CurrentStepName: Unlock Reload Assemblies
       CurrentStageName: 
     m_NewResultList:
-    - id: 1009
+    - id: 1000
       uniqueId: '[Roblocklly_EPH][suite]'
       name: Roblocklly_EPH
       fullName: Roblocklly_EPH
@@ -467,10 +467,10 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1112
+    - id: 1103
       uniqueId: '[Assembly-CSharp-Editor.dll][suite]'
       name: Assembly-CSharp-Editor.dll
-      fullName: E:/Unity Projects/RoblockLLy-23-24/src/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      fullName: E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
       duration: 0
       messages: 
@@ -481,9 +481,9 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1009
+      parentId: 1000
       parentUniqueId: '[Roblocklly_EPH][suite]'
-    - id: 1113
+    - id: 1104
       uniqueId: 'Assembly-CSharp-Editor.dll/[UBlockly][suite]'
       name: UBlockly
       fullName: UBlockly
@@ -497,9 +497,9 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1112
+      parentId: 1103
       parentUniqueId: '[Assembly-CSharp-Editor.dll][suite]'
-    - id: 1114
+    - id: 1105
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
       name: Test
       fullName: UBlockly.Test
@@ -513,9 +513,9 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1113
+      parentId: 1104
       parentUniqueId: 'Assembly-CSharp-Editor.dll/[UBlockly][suite]'
-    - id: 1012
+    - id: 1003
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.ConnectionDBTest][suite]'
       name: ConnectionDBTest
       fullName: UBlockly.Test.ConnectionDBTest
@@ -529,14 +529,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1004
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/ConnectionDBTest/[Assembly-CSharp-Editor][UBlockly.Test.ConnectionDBTest.TestDB_AddConnection]'
       name: TestDB_AddConnection
       fullName: UBlockly.Test.ConnectionDBTest.TestDB_AddConnection
       resultStatus: 1
-      duration: 0.0094402
+      duration: 0.0136034
       messages: 
       output: 
       stacktrace: 
@@ -553,7 +553,7 @@ MonoBehaviour:
       name: TestDB_FindConnection
       fullName: UBlockly.Test.ConnectionDBTest.TestDB_FindConnection
       resultStatus: 1
-      duration: 0.0008505
+      duration: 0.0029499
       messages: 
       output: 
       stacktrace: 
@@ -570,7 +570,7 @@ MonoBehaviour:
       name: TestDB_FindPositionForConnection
       fullName: UBlockly.Test.ConnectionDBTest.TestDB_FindPositionForConnection
       resultStatus: 1
-      duration: 0.0002729
+      duration: 0.0002241
       messages: 
       output: 
       stacktrace: 
@@ -587,7 +587,7 @@ MonoBehaviour:
       name: TestDB_GetNeighbours
       fullName: UBlockly.Test.ConnectionDBTest.TestDB_GetNeighbours
       resultStatus: 1
-      duration: 0.0020077
+      duration: 0.0018903
       messages: 
       output: 
       stacktrace: 
@@ -604,7 +604,7 @@ MonoBehaviour:
       name: TestDB_Ordering
       fullName: UBlockly.Test.ConnectionDBTest.TestDB_Ordering
       resultStatus: 1
-      duration: 0.0003419
+      duration: 0.0003648
       messages: 
       output: 
       stacktrace: 
@@ -621,7 +621,7 @@ MonoBehaviour:
       name: TestDB_RemoveConnection
       fullName: UBlockly.Test.ConnectionDBTest.TestDB_RemoveConnection
       resultStatus: 1
-      duration: 0.0008403
+      duration: 0.0008106
       messages: 
       output: 
       stacktrace: 
@@ -638,7 +638,7 @@ MonoBehaviour:
       name: TestDB_SearchForClosest
       fullName: UBlockly.Test.ConnectionDBTest.TestDB_SearchForClosest
       resultStatus: 1
-      duration: 0.0011607
+      duration: 0.0011201
       messages: 
       output: 
       stacktrace: 
@@ -650,7 +650,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1003
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.ConnectionDBTest][suite]'
-    - id: 1020
+    - id: 1011
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.ConnectionTest][suite]'
       name: ConnectionTest
       fullName: UBlockly.Test.ConnectionTest
@@ -664,14 +664,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1017
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/ConnectionTest/[Assembly-CSharp-Editor][UBlockly.Test.ConnectionTest.TestCanConnectWithReason_CanConnect]'
       name: TestCanConnectWithReason_CanConnect
       fullName: UBlockly.Test.ConnectionTest.TestCanConnectWithReason_CanConnect
       resultStatus: 1
-      duration: 0.0004347
+      duration: 0.0002741
       messages: 
       output: 
       stacktrace: 
@@ -688,7 +688,7 @@ MonoBehaviour:
       name: TestCanConnectWithReason_Disconnect
       fullName: UBlockly.Test.ConnectionTest.TestCanConnectWithReason_Disconnect
       resultStatus: 1
-      duration: 0.0002071
+      duration: 0.0001469
       messages: 
       output: 
       stacktrace: 
@@ -705,7 +705,7 @@ MonoBehaviour:
       name: TestCanConnectWithReason_Self
       fullName: UBlockly.Test.ConnectionTest.TestCanConnectWithReason_Self
       resultStatus: 1
-      duration: 0.0001235
+      duration: 0.0000845
       messages: 
       output: 
       stacktrace: 
@@ -722,7 +722,7 @@ MonoBehaviour:
       name: TestCanConnectWithReason_TargetNull
       fullName: UBlockly.Test.ConnectionTest.TestCanConnectWithReason_TargetNull
       resultStatus: 1
-      duration: 0.0001179
+      duration: 0.0000796
       messages: 
       output: 
       stacktrace: 
@@ -739,7 +739,7 @@ MonoBehaviour:
       name: TestCanConnectWithReason_Type
       fullName: UBlockly.Test.ConnectionTest.TestCanConnectWithReason_Type
       resultStatus: 1
-      duration: 0.000261
+      duration: 0.0001566
       messages: 
       output: 
       stacktrace: 
@@ -756,7 +756,7 @@ MonoBehaviour:
       name: TestCanConnnectWithReason_DifferentWorkspace
       fullName: UBlockly.Test.ConnectionTest.TestCanConnnectWithReason_DifferentWorkspace
       resultStatus: 1
-      duration: 0.0001617
+      duration: 0.0001089
       messages: 
       output: 
       stacktrace: 
@@ -773,7 +773,7 @@ MonoBehaviour:
       name: TestCheckConnection_Self
       fullName: UBlockly.Test.ConnectionTest.TestCheckConnection_Self
       resultStatus: 1
-      duration: 0.0004778
+      duration: 0.0003155
       messages: 
       output: 
       stacktrace: 
@@ -790,7 +790,7 @@ MonoBehaviour:
       name: TestCheckConnection_TypeInputPrev
       fullName: UBlockly.Test.ConnectionTest.TestCheckConnection_TypeInputPrev
       resultStatus: 1
-      duration: 0.000125
+      duration: 0.0000858
       messages: 
       output: 
       stacktrace: 
@@ -807,7 +807,7 @@ MonoBehaviour:
       name: TestCheckConnection_TypeNextInput
       fullName: UBlockly.Test.ConnectionTest.TestCheckConnection_TypeNextInput
       resultStatus: 1
-      duration: 0.0000944
+      duration: 0.0000824
       messages: 
       output: 
       stacktrace: 
@@ -824,7 +824,7 @@ MonoBehaviour:
       name: TestCheckConnection_TypeNextOutput
       fullName: UBlockly.Test.ConnectionTest.TestCheckConnection_TypeNextOutput
       resultStatus: 1
-      duration: 0.0000907
+      duration: 0.0000789
       messages: 
       output: 
       stacktrace: 
@@ -841,7 +841,7 @@ MonoBehaviour:
       name: TestCheckConnection_TypeOutputPrev
       fullName: UBlockly.Test.ConnectionTest.TestCheckConnection_TypeOutputPrev
       resultStatus: 1
-      duration: 0.000085
+      duration: 0.0000785
       messages: 
       output: 
       stacktrace: 
@@ -858,7 +858,7 @@ MonoBehaviour:
       name: TestCheckConnection_TypePrevInput
       fullName: UBlockly.Test.ConnectionTest.TestCheckConnection_TypePrevInput
       resultStatus: 1
-      duration: 0.0000818
+      duration: 0.0000808
       messages: 
       output: 
       stacktrace: 
@@ -875,7 +875,7 @@ MonoBehaviour:
       name: TestCheckConnection_TypePrevOutput
       fullName: UBlockly.Test.ConnectionTest.TestCheckConnection_TypePrevOutput
       resultStatus: 1
-      duration: 0.0000852
+      duration: 0.0000808
       messages: 
       output: 
       stacktrace: 
@@ -892,7 +892,7 @@ MonoBehaviour:
       name: TestCheckConnectionOkay
       fullName: UBlockly.Test.ConnectionTest.TestCheckConnectionOkay
       resultStatus: 1
-      duration: 0.0000806
+      duration: 0.0000771
       messages: 
       output: 
       stacktrace: 
@@ -909,7 +909,7 @@ MonoBehaviour:
       name: TestIsConnectionAllowed_Distance
       fullName: UBlockly.Test.ConnectionTest.TestIsConnectionAllowed_Distance
       resultStatus: 1
-      duration: 0.0002367
+      duration: 0.0003301
       messages: 
       output: 
       stacktrace: 
@@ -926,7 +926,7 @@ MonoBehaviour:
       name: TestIsConnectionAllowed_NoNext
       fullName: UBlockly.Test.ConnectionTest.TestIsConnectionAllowed_NoNext
       resultStatus: 1
-      duration: 0.0002131
+      duration: 0.0002136
       messages: 
       output: 
       stacktrace: 
@@ -943,7 +943,7 @@ MonoBehaviour:
       name: TestIsConnectionAllowed_Unrendered
       fullName: UBlockly.Test.ConnectionTest.TestIsConnectionAllowed_Unrendered
       resultStatus: 1
-      duration: 0.0001739
+      duration: 0.0001784
       messages: 
       output: 
       stacktrace: 
@@ -955,7 +955,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1011
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.ConnectionTest][suite]'
-    - id: 1038
+    - id: 1029
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.FieldAngleTest][suite]'
       name: FieldAngleTest
       fullName: UBlockly.Test.FieldAngleTest
@@ -969,14 +969,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1030
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/FieldAngleTest/[Assembly-CSharp-Editor][UBlockly.Test.FieldAngleTest.TestFieldAngleConstructor]'
       name: TestFieldAngleConstructor
       fullName: UBlockly.Test.FieldAngleTest.TestFieldAngleConstructor
       resultStatus: 1
-      duration: 0.0021885
+      duration: 0.0024907
       messages: 
       output: 'Number constructor must have a string argument with number value.
 
@@ -990,7 +990,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1029
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.FieldAngleTest][suite]'
-    - id: 1040
+    - id: 1031
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.FieldNumberTest][suite]'
       name: FieldNumberTest
       fullName: UBlockly.Test.FieldNumberTest
@@ -1004,14 +1004,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1032
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/FieldNumberTest/[Assembly-CSharp-Editor][UBlockly.Test.FieldNumberTest.TestFieldNumberConstructor]'
       name: TestFieldNumberConstructor
       fullName: UBlockly.Test.FieldNumberTest.TestFieldNumberConstructor
       resultStatus: 1
-      duration: 0.002015
+      duration: 0.0016783
       messages: 
       output: 'Number constructor must have a string argument with number value.
 
@@ -1025,7 +1025,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1031
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.FieldNumberTest][suite]'
-    - id: 1042
+    - id: 1033
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.FieldVariableTest][suite]'
       name: FieldVariableTest
       fullName: UBlockly.Test.FieldVariableTest
@@ -1039,14 +1039,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1034
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/FieldVariableTest/[Assembly-CSharp-Editor][UBlockly.Test.FieldVariableTest.TestFieldVariable_Constructor]'
       name: TestFieldVariable_Constructor
       fullName: UBlockly.Test.FieldVariableTest.TestFieldVariable_Constructor
       resultStatus: 1
-      duration: 0.0012678
+      duration: 0.0009591
       messages: 
       output: 
       stacktrace: 
@@ -1063,7 +1063,7 @@ MonoBehaviour:
       name: TestFieldVariable_DropdownCreateVariablesExist
       fullName: UBlockly.Test.FieldVariableTest.TestFieldVariable_DropdownCreateVariablesExist
       resultStatus: 1
-      duration: 0.002279
+      duration: 0.0018491
       messages: 
       output: 
       stacktrace: 
@@ -1080,7 +1080,7 @@ MonoBehaviour:
       name: TestFieldVariable_SetValueMatchId
       fullName: UBlockly.Test.FieldVariableTest.TestFieldVariable_SetValueMatchId
       resultStatus: 1
-      duration: 0.0001571
+      duration: 0.0001524
       messages: 
       output: 
       stacktrace: 
@@ -1097,7 +1097,7 @@ MonoBehaviour:
       name: TestFieldVariable_SetValueMatchName
       fullName: UBlockly.Test.FieldVariableTest.TestFieldVariable_SetValueMatchName
       resultStatus: 1
-      duration: 0.0001448
+      duration: 0.000139
       messages: 
       output: 
       stacktrace: 
@@ -1114,7 +1114,7 @@ MonoBehaviour:
       name: TestFieldVariable_SetValueNoVariable
       fullName: UBlockly.Test.FieldVariableTest.TestFieldVariable_SetValueNoVariable
       resultStatus: 1
-      duration: 0.0001082
+      duration: 0.0001055
       messages: 
       output: 
       stacktrace: 
@@ -1126,7 +1126,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1033
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.FieldVariableTest][suite]'
-    - id: 1010
+    - id: 1001
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.GeneratorTest][suite]'
       name: GeneratorTest
       fullName: UBlockly.Test.GeneratorTest
@@ -1140,14 +1140,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1002
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/GeneratorTest/[Assembly-CSharp-Editor][UBlockly.Test.GeneratorTest.TestPrefix]'
       name: TestPrefix
       fullName: UBlockly.Test.GeneratorTest.TestPrefix
       resultStatus: 1
-      duration: 0.0010524
+      duration: 0.0011338
       messages: 
       output: 
       stacktrace: 
@@ -1159,7 +1159,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.GeneratorTest][suite]'
-    - id: 1048
+    - id: 1039
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.InputTest][suite]'
       name: InputTest
       fullName: UBlockly.Test.InputTest
@@ -1173,14 +1173,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1042
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/InputTest/[Assembly-CSharp-Editor][UBlockly.Test.InputTest.TestAppendFieldPrefix]'
       name: TestAppendFieldPrefix
       fullName: UBlockly.Test.InputTest.TestAppendFieldPrefix
       resultStatus: 1
-      duration: 0.0007903
+      duration: 0.000823
       messages: 
       output: 
       stacktrace: 
@@ -1197,7 +1197,7 @@ MonoBehaviour:
       name: TestAppendFieldSimple
       fullName: UBlockly.Test.InputTest.TestAppendFieldSimple
       resultStatus: 1
-      duration: 0.0005034
+      duration: 0.0004912
       messages: 
       output: 
       stacktrace: 
@@ -1214,7 +1214,7 @@ MonoBehaviour:
       name: TestAppendFieldString
       fullName: UBlockly.Test.InputTest.TestAppendFieldString
       resultStatus: 1
-      duration: 0.0002922
+      duration: 0.0002862
       messages: 
       output: 
       stacktrace: 
@@ -1231,7 +1231,7 @@ MonoBehaviour:
       name: TestAppendFieldSuffix
       fullName: UBlockly.Test.InputTest.TestAppendFieldSuffix
       resultStatus: 1
-      duration: 0.0000792
+      duration: 0.0000751
       messages: 
       output: 
       stacktrace: 
@@ -1248,7 +1248,7 @@ MonoBehaviour:
       name: TestInsertFieldAtPrefx
       fullName: UBlockly.Test.InputTest.TestInsertFieldAtPrefx
       resultStatus: 1
-      duration: 0.0000473
+      duration: 0.0000439
       messages: 
       output: 
       stacktrace: 
@@ -1265,7 +1265,7 @@ MonoBehaviour:
       name: TestInsertFieldAtSimple
       fullName: UBlockly.Test.InputTest.TestInsertFieldAtSimple
       resultStatus: 1
-      duration: 0.0002709
+      duration: 0.0002633
       messages: 
       output: 
       stacktrace: 
@@ -1282,7 +1282,7 @@ MonoBehaviour:
       name: TestInsertFieldAtString
       fullName: UBlockly.Test.InputTest.TestInsertFieldAtString
       resultStatus: 1
-      duration: 0.0002556
+      duration: 0.0002538
       messages: 
       output: 
       stacktrace: 
@@ -1299,7 +1299,7 @@ MonoBehaviour:
       name: TestInsertFieldAtSuffix
       fullName: UBlockly.Test.InputTest.TestInsertFieldAtSuffix
       resultStatus: 1
-      duration: 0.0000452
+      duration: 0.0000436
       messages: 
       output: 
       stacktrace: 
@@ -1311,7 +1311,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1039
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.InputTest][suite]'
-    - id: 1057
+    - id: 1048
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.JsonTest][suite]'
       name: JsonTest
       fullName: UBlockly.Test.JsonTest
@@ -1325,14 +1325,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1050
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/JsonTest/[Assembly-CSharp-Editor][UBlockly.Test.JsonTest.TestJsonMessage0]'
       name: TestJsonMessage0
       fullName: UBlockly.Test.JsonTest.TestJsonMessage0
       resultStatus: 1
-      duration: 0.0258405
+      duration: 0.0231352
       messages: 
       output: 
       stacktrace: 
@@ -1349,7 +1349,7 @@ MonoBehaviour:
       name: TestJsonMessage1
       fullName: UBlockly.Test.JsonTest.TestJsonMessage1
       resultStatus: 1
-      duration: 0.0003616
+      duration: 0.0003957
       messages: 
       output: 
       stacktrace: 
@@ -1366,7 +1366,7 @@ MonoBehaviour:
       name: TestJsonMinimal
       fullName: UBlockly.Test.JsonTest.TestJsonMinimal
       resultStatus: 1
-      duration: 0.0001856
+      duration: 0.000183
       messages: 
       output: 
       stacktrace: 
@@ -1378,7 +1378,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1048
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.JsonTest][suite]'
-    - id: 1061
+    - id: 1052
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.UtilsTest][suite]'
       name: UtilsTest
       fullName: UBlockly.Test.UtilsTest
@@ -1392,14 +1392,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1056
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/UtilsTest/[Assembly-CSharp-Editor][UBlockly.Test.UtilsTest.TestCommonWordPrefix]'
       name: TestCommonWordPrefix
       fullName: UBlockly.Test.UtilsTest.TestCommonWordPrefix
       resultStatus: 1
-      duration: 0.0004353
+      duration: 0.000502
       messages: 
       output: 
       stacktrace: 
@@ -1416,7 +1416,7 @@ MonoBehaviour:
       name: TestCommonWordSuffix
       fullName: UBlockly.Test.UtilsTest.TestCommonWordSuffix
       resultStatus: 1
-      duration: 0.0003206
+      duration: 0.0003183
       messages: 
       output: 
       stacktrace: 
@@ -1433,7 +1433,7 @@ MonoBehaviour:
       name: TestGenUid
       fullName: UBlockly.Test.UtilsTest.TestGenUid
       resultStatus: 1
-      duration: 0.0081951
+      duration: 0.008147
       messages: 
       output: 
       stacktrace: 
@@ -1450,7 +1450,7 @@ MonoBehaviour:
       name: TestReplaceMessageReferences
       fullName: UBlockly.Test.UtilsTest.TestReplaceMessageReferences
       resultStatus: 1
-      duration: 0.0189631
+      duration: 0.0173195
       messages: 
       output: 
       stacktrace: 
@@ -1467,7 +1467,7 @@ MonoBehaviour:
       name: TestTokenizeInterpolation
       fullName: UBlockly.Test.UtilsTest.TestTokenizeInterpolation
       resultStatus: 1
-      duration: 0.0007645
+      duration: 0.0007907
       messages: 
       output: 
       stacktrace: 
@@ -1479,7 +1479,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1052
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.UtilsTest][suite]'
-    - id: 1067
+    - id: 1058
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.VariableTest][suite]'
       name: VariableTest
       fullName: UBlockly.Test.VariableTest
@@ -1493,14 +1493,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1062
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/VariableTest/[Assembly-CSharp-Editor][UBlockly.Test.VariableTest.TestCreateVariable]'
       name: TestCreateVariable
       fullName: UBlockly.Test.VariableTest.TestCreateVariable
       resultStatus: 1
-      duration: 0.0064316
+      duration: 0.0030021
       messages: 
       output: 
       stacktrace: 
@@ -1517,7 +1517,7 @@ MonoBehaviour:
       name: TestGetAllVariables
       fullName: UBlockly.Test.VariableTest.TestGetAllVariables
       resultStatus: 1
-      duration: 0.0002511
+      duration: 0.0002366
       messages: 
       output: 
       stacktrace: 
@@ -1534,7 +1534,7 @@ MonoBehaviour:
       name: TestGetVariable
       fullName: UBlockly.Test.VariableTest.TestGetVariable
       resultStatus: 1
-      duration: 0.0001902
+      duration: 0.0001983
       messages: 
       output: 
       stacktrace: 
@@ -1551,7 +1551,7 @@ MonoBehaviour:
       name: TestGetVariableById
       fullName: UBlockly.Test.VariableTest.TestGetVariableById
       resultStatus: 1
-      duration: 0.0001294
+      duration: 0.0001302
       messages: 
       output: 
       stacktrace: 
@@ -1568,7 +1568,7 @@ MonoBehaviour:
       name: TestGetVariablesOfType
       fullName: UBlockly.Test.VariableTest.TestGetVariablesOfType
       resultStatus: 1
-      duration: 0.0004584
+      duration: 0.0004665
       messages: 
       output: 
       stacktrace: 
@@ -1585,7 +1585,7 @@ MonoBehaviour:
       name: TestGetVariableTypes
       fullName: UBlockly.Test.VariableTest.TestGetVariableTypes
       resultStatus: 1
-      duration: 0.0001674
+      duration: 0.0001685
       messages: 
       output: 
       stacktrace: 
@@ -1602,7 +1602,7 @@ MonoBehaviour:
       name: TestInitVariableModel
       fullName: UBlockly.Test.VariableTest.TestInitVariableModel
       resultStatus: 1
-      duration: 0.0003652
+      duration: 0.0003656
       messages: 
       output: 
       stacktrace: 
@@ -1614,7 +1614,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1058
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.VariableTest][suite]'
-    - id: 1075
+    - id: 1066
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.WorkspaceTest][suite]'
       name: WorkspaceTest
       fullName: UBlockly.Test.WorkspaceTest
@@ -1628,14 +1628,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1070
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/WorkspaceTest/[Assembly-CSharp-Editor][UBlockly.Test.WorkspaceTest.GetBlockById]'
       name: GetBlockById
       fullName: UBlockly.Test.WorkspaceTest.GetBlockById
       resultStatus: 1
-      duration: 0.0014287
+      duration: 0.0011871
       messages: 
       output: "Create an empty block: \r\nCreate an empty block: \r\n"
       stacktrace: 
@@ -1652,7 +1652,7 @@ MonoBehaviour:
       name: GetWorkspaceById
       fullName: UBlockly.Test.WorkspaceTest.GetWorkspaceById
       resultStatus: 1
-      duration: 0.000235
+      duration: 0.0001939
       messages: 
       output: 
       stacktrace: 
@@ -1669,7 +1669,7 @@ MonoBehaviour:
       name: TestClearNoVariables
       fullName: UBlockly.Test.WorkspaceTest.TestClearNoVariables
       resultStatus: 1
-      duration: 0.0001794
+      duration: 0.0001502
       messages: 
       output: 
       stacktrace: 
@@ -1686,7 +1686,7 @@ MonoBehaviour:
       name: TestClearTrivial
       fullName: UBlockly.Test.WorkspaceTest.TestClearTrivial
       resultStatus: 1
-      duration: 0.0001832
+      duration: 0.0001558
       messages: 
       output: 
       stacktrace: 
@@ -1703,7 +1703,7 @@ MonoBehaviour:
       name: TestDeleteVariableByIDTrivial
       fullName: UBlockly.Test.WorkspaceTest.TestDeleteVariableByIDTrivial
       resultStatus: 1
-      duration: 0.0043263
+      duration: 0.0030475
       messages: 
       output: 'name2
 
@@ -1722,7 +1722,7 @@ MonoBehaviour:
       name: TestDeleteVariableInternalTrivial
       fullName: UBlockly.Test.WorkspaceTest.TestDeleteVariableInternalTrivial
       resultStatus: 1
-      duration: 0.0002139
+      duration: 0.000216
       messages: 
       output: 
       stacktrace: 
@@ -1739,7 +1739,7 @@ MonoBehaviour:
       name: TestDeleteVariableTrivial
       fullName: UBlockly.Test.WorkspaceTest.TestDeleteVariableTrivial
       resultStatus: 1
-      duration: 0.0004301
+      duration: 0.0004363
       messages: 
       output: 
       stacktrace: 
@@ -1756,7 +1756,7 @@ MonoBehaviour:
       name: TestEmptyWorkspace
       fullName: UBlockly.Test.WorkspaceTest.TestEmptyWorkspace
       resultStatus: 1
-      duration: 0.0001931
+      duration: 0.0001933
       messages: 
       output: 
       stacktrace: 
@@ -1773,7 +1773,7 @@ MonoBehaviour:
       name: TestFlatWorkspace
       fullName: UBlockly.Test.WorkspaceTest.TestFlatWorkspace
       resultStatus: 1
-      duration: 0.0010826
+      duration: 0.0011281
       messages: 
       output: "Create an empty block: \r\nCreate an empty block: \r\n"
       stacktrace: 
@@ -1790,7 +1790,7 @@ MonoBehaviour:
       name: TestRenameVariableByIdTwoVariablesSameType
       fullName: UBlockly.Test.WorkspaceTest.TestRenameVariableByIdTwoVariablesSameType
       resultStatus: 1
-      duration: 0.0009039
+      duration: 0.0008599
       messages: 
       output: 
       stacktrace: 
@@ -1807,7 +1807,7 @@ MonoBehaviour:
       name: TestRenameVariableNoBlocks
       fullName: UBlockly.Test.WorkspaceTest.TestRenameVariableNoBlocks
       resultStatus: 1
-      duration: 0.0001625
+      duration: 0.0001599
       messages: 
       output: 
       stacktrace: 
@@ -1824,7 +1824,7 @@ MonoBehaviour:
       name: TestRenameVariableOldCase
       fullName: UBlockly.Test.WorkspaceTest.TestRenameVariableOldCase
       resultStatus: 1
-      duration: 0.0001635
+      duration: 0.0001603
       messages: 
       output: 
       stacktrace: 
@@ -1841,7 +1841,7 @@ MonoBehaviour:
       name: TestRenameVariableOnlyOldNameBlockExists
       fullName: UBlockly.Test.WorkspaceTest.TestRenameVariableOnlyOldNameBlockExists
       resultStatus: 1
-      duration: 0.0001687
+      duration: 0.0001658
       messages: 
       output: 
       stacktrace: 
@@ -1858,7 +1858,7 @@ MonoBehaviour:
       name: TestRenameVariableSameNameNoBlocks
       fullName: UBlockly.Test.WorkspaceTest.TestRenameVariableSameNameNoBlocks
       resultStatus: 1
-      duration: 0.0001065
+      duration: 0.000106
       messages: 
       output: 
       stacktrace: 
@@ -1875,7 +1875,7 @@ MonoBehaviour:
       name: TestRenameVariableTwoVariablesAndOldCase
       fullName: UBlockly.Test.WorkspaceTest.TestRenameVariableTwoVariablesAndOldCase
       resultStatus: 1
-      duration: 0.000225
+      duration: 0.000229
       messages: 
       output: 
       stacktrace: 
@@ -1892,7 +1892,7 @@ MonoBehaviour:
       name: TestRenameVariableTwoVariablesDifferentType
       fullName: UBlockly.Test.WorkspaceTest.TestRenameVariableTwoVariablesDifferentType
       resultStatus: 1
-      duration: 0.0002302
+      duration: 0.0002394
       messages: 
       output: 
       stacktrace: 
@@ -1909,7 +1909,7 @@ MonoBehaviour:
       name: TestRenameVariableTwoVariablesSameType
       fullName: UBlockly.Test.WorkspaceTest.TestRenameVariableTwoVariablesSameType
       resultStatus: 1
-      duration: 0.0002052
+      duration: 0.0002014
       messages: 
       output: 
       stacktrace: 
@@ -1926,7 +1926,7 @@ MonoBehaviour:
       name: TestUpdateVariableStoreClearAndAllInUse
       fullName: UBlockly.Test.WorkspaceTest.TestUpdateVariableStoreClearAndAllInUse
       resultStatus: 1
-      duration: 0.0007433
+      duration: 0.0007176
       messages: 
       output: 
       stacktrace: 
@@ -1943,7 +1943,7 @@ MonoBehaviour:
       name: TestUpdateVariableStoreClearAndOneInUse
       fullName: UBlockly.Test.WorkspaceTest.TestUpdateVariableStoreClearAndOneInUse
       resultStatus: 1
-      duration: 0.0002217
+      duration: 0.0002449
       messages: 
       output: 
       stacktrace: 
@@ -1960,7 +1960,7 @@ MonoBehaviour:
       name: TestUpdateVariableStoreTrivialNoClear
       fullName: UBlockly.Test.WorkspaceTest.TestUpdateVariableStoreTrivialNoClear
       resultStatus: 1
-      duration: 0.0001932
+      duration: 0.0001919
       messages: 
       output: 
       stacktrace: 
@@ -1977,7 +1977,7 @@ MonoBehaviour:
       name: TestVariableStorenameNotInvariableMapNoClear
       fullName: UBlockly.Test.WorkspaceTest.TestVariableStorenameNotInvariableMapNoClear
       resultStatus: 1
-      duration: 0.0001465
+      duration: 0.0001475
       messages: 
       output: 
       stacktrace: 
@@ -1989,7 +1989,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1066
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.WorkspaceTest][suite]'
-    - id: 1097
+    - id: 1088
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.XmlTest][suite]'
       name: XmlTest
       fullName: UBlockly.Test.XmlTest
@@ -2003,14 +2003,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1114
+      parentId: 1105
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/[Assembly-CSharp-Editor][UBlockly.Test][suite]'
     - id: 1095
       uniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/XmlTest/[Assembly-CSharp-Editor][UBlockly.Test.XmlTest.TestAppendDomToWorkspace]'
       name: TestAppendDomToWorkspace
       fullName: UBlockly.Test.XmlTest.TestAppendDomToWorkspace
       resultStatus: 1
-      duration: 0.000062
+      duration: 0.0000541
       messages: 
       output: 
       stacktrace: 
@@ -2027,7 +2027,7 @@ MonoBehaviour:
       name: TestBlockToDomDefaultCase
       fullName: UBlockly.Test.XmlTest.TestBlockToDomDefaultCase
       resultStatus: 1
-      duration: 0.0023625
+      duration: 0.0022276
       messages: 
       output: 
       stacktrace: 
@@ -2044,7 +2044,7 @@ MonoBehaviour:
       name: TestBlockToDomFieldToDomNotAFieldVariable
       fullName: UBlockly.Test.XmlTest.TestBlockToDomFieldToDomNotAFieldVariable
       resultStatus: 1
-      duration: 0.0044267
+      duration: 0.0018544
       messages: 
       output: 
       stacktrace: 
@@ -2061,7 +2061,7 @@ MonoBehaviour:
       name: TestBlockToDomFieldToDomTrivial
       fullName: UBlockly.Test.XmlTest.TestBlockToDomFieldToDomTrivial
       resultStatus: 1
-      duration: 0.0002009
+      duration: 0.0001987
       messages: 
       output: 
       stacktrace: 
@@ -2078,7 +2078,7 @@ MonoBehaviour:
       name: TestDomToWorkspaceBackwardCompatibility
       fullName: UBlockly.Test.XmlTest.TestDomToWorkspaceBackwardCompatibility
       resultStatus: 1
-      duration: 0.0027699
+      duration: 0.0024369
       messages: 
       output: 
       stacktrace: 
@@ -2095,7 +2095,7 @@ MonoBehaviour:
       name: TestDomToWorkspaceVariablesAtTop
       fullName: UBlockly.Test.XmlTest.TestDomToWorkspaceVariablesAtTop
       resultStatus: 1
-      duration: 0.0010282
+      duration: 0.0010557
       messages: 
       output: 
       stacktrace: 
@@ -2112,7 +2112,7 @@ MonoBehaviour:
       name: TestDomToWorkspaceVariablesAtTopDuplicateVariablesTag
       fullName: UBlockly.Test.XmlTest.TestDomToWorkspaceVariablesAtTopDuplicateVariablesTag
       resultStatus: 1
-      duration: 0.0001507
+      duration: 0.0001549
       messages: 
       output: 
       stacktrace: 
@@ -2129,7 +2129,7 @@ MonoBehaviour:
       name: TestDomToWorkspaceVariablesAtTopMismatchBlockType
       fullName: UBlockly.Test.XmlTest.TestDomToWorkspaceVariablesAtTopMismatchBlockType
       resultStatus: 1
-      duration: 0.0001725
+      duration: 0.0001683
       messages: 
       output: 
       stacktrace: 
@@ -2146,7 +2146,7 @@ MonoBehaviour:
       name: TestDomToWorkspaceVariablesAtTopMissingType
       fullName: UBlockly.Test.XmlTest.TestDomToWorkspaceVariablesAtTopMissingType
       resultStatus: 1
-      duration: 0.0001321
+      duration: 0.0001388
       messages: 
       output: 
       stacktrace: 
@@ -2163,7 +2163,7 @@ MonoBehaviour:
       name: TestTextToDom
       fullName: UBlockly.Test.XmlTest.TestTextToDom
       resultStatus: 1
-      duration: 0.0010095
+      duration: 0.0006531
       messages: 
       output: 
       stacktrace: 
@@ -2180,7 +2180,7 @@ MonoBehaviour:
       name: TestVariablesToDomNoVariables
       fullName: UBlockly.Test.XmlTest.TestVariablesToDomNoVariables
       resultStatus: 1
-      duration: 0.0003138
+      duration: 0.0003161
       messages: 
       output: 
       stacktrace: 
@@ -2197,7 +2197,7 @@ MonoBehaviour:
       name: TestVariablesToDomOneVariable
       fullName: UBlockly.Test.XmlTest.TestVariablesToDomOneVariable
       resultStatus: 1
-      duration: 0.001378
+      duration: 0.001406
       messages: 
       output: '<variables><variable type="" id="1">name1</variable></variables>
 
@@ -2218,7 +2218,7 @@ MonoBehaviour:
       name: TestVariablesToDomTwoVariablesOneBlock
       fullName: UBlockly.Test.XmlTest.TestVariablesToDomTwoVariablesOneBlock
       resultStatus: 1
-      duration: 0.0002864
+      duration: 0.0002932
       messages: 
       output: 
       stacktrace: 
@@ -2235,10 +2235,10 @@ MonoBehaviour:
       name: TestWorkspaceToDom
       fullName: UBlockly.Test.XmlTest.TestWorkspaceToDom
       resultStatus: 1
-      duration: 0.001075
+      duration: 0.0010234
       messages: 
       output: '<color=green><xml><variables /><block type="field_variable_test_block"
-        id="N}c|:,0H)QNk6ihlXfw)" x="0" y="0"><field name="VAR">item</field></block></xml></color>
+        id="cN1mz~Zt1m03llo4AW]R" x="0" y="0"><field name="VAR">item</field></block></xml></color>
 
 '
       stacktrace: 
@@ -2250,10 +2250,10 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1088
       parentUniqueId: 'Assembly-CSharp-Editor.dll/UBlockly/Test/[Assembly-CSharp-Editor][UBlockly.Test.XmlTest][suite]'
-    - id: 1118
-      uniqueId: '[Roblocklly-EditMode][E:/Unity Projects/RoblockLLy-23-24/src/Library/ScriptAssemblies/Roblocklly-EditMode.dll][suite]'
+    - id: 1109
+      uniqueId: '[Roblocklly-EditMode][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-EditMode.dll][suite]'
       name: Roblocklly-EditMode.dll
-      fullName: E:/Unity Projects/RoblockLLy-23-24/src/Library/ScriptAssemblies/Roblocklly-EditMode.dll
+      fullName: E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-EditMode.dll
       resultStatus: 1
       duration: 0
       messages: 
@@ -2264,9 +2264,9 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1009
+      parentId: 1000
       parentUniqueId: '[Roblocklly_EPH][suite]'
-    - id: 1115
+    - id: 1106
       uniqueId: 'Roblocklly-EditMode.dll/[Roblocklly-EditMode][RobotTests][suite]'
       name: RobotTests
       fullName: RobotTests
@@ -2280,14 +2280,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1118
-      parentUniqueId: '[Roblocklly-EditMode][E:/Unity Projects/RoblockLLy-23-24/src/Library/ScriptAssemblies/Roblocklly-EditMode.dll][suite]'
+      parentId: 1109
+      parentUniqueId: '[Roblocklly-EditMode][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-EditMode.dll][suite]'
     - id: 1119
       uniqueId: 'Roblocklly-EditMode.dll/RobotTests/[Roblocklly-EditMode][RobotTests.AddingMultipleSensors]'
       name: AddingMultipleSensors
       fullName: RobotTests.AddingMultipleSensors
       resultStatus: 1
-      duration: 0.0006243
+      duration: 0.0039789
       messages: 
       output: 
       stacktrace: 
@@ -2304,7 +2304,7 @@ MonoBehaviour:
       name: AddingSensor
       fullName: RobotTests.AddingSensor
       resultStatus: 1
-      duration: 0.0002926
+      duration: 0.0003152
       messages: 
       output: 
       stacktrace: 
@@ -2316,144 +2316,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1106
       parentUniqueId: 'Roblocklly-EditMode.dll/[Roblocklly-EditMode][RobotTests][suite]'
-    m_ResultText: 'RemovingSensor (0.003s)
-
-      ---
-
-      Unhandled log message:
-      ''[Error] Destroy may not be called from edit mode! Use DestroyImmediate instead.
-
-      Destroying
-      an object in edit mode destroys it permanently.''. Use UnityEngine.TestTools.LogAssert.Expect
-
-      ---
-
-      UnityEngine.Object:Destroy
-      (UnityEngine.Object)
-
-      RobotManager:RemoveSensor (string) (at Assets/Scripts/Robots/RobotManager.cs:88)
-
-      RobotManager:ClearAllSensors
-      () (at Assets/Scripts/Robots/RobotManager.cs:129)
-
-      RobotTests:RemovingSensor
-      () (at Assets/Roblocklly Tests/EditMode/RobotTests.cs:33)
-
-      System.Reflection.MethodBase:Invoke
-      (object,object[])
-
-      NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
-
-      NUnit.Framework.Internal.MethodWrapper:Invoke
-      (object,object[])
-
-      NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod
-      (NUnit.Framework.Internal.ITestExecutionContext)
-
-      NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod
-      (NUnit.Framework.Internal.ITestExecutionContext)
-
-      NUnit.Framework.Internal.Commands.TestMethodCommand:Execute
-      (NUnit.Framework.Internal.ITestExecutionContext)
-
-      UnityEditor.EditorApplication:Internal_CallUpdateFunctions
-      ()
-
-
-
-
-      ---
-
-      Destroy may not be called from edit mode! Use DestroyImmediate
-      instead.
-
-      Destroying an object in edit mode destroys it permanently.
-
-      Destroy
-      may not be called from edit mode! Use DestroyImmediate instead.
-
-      Destroying
-      an object in edit mode destroys it permanently.
-
-      Destroy may not be called
-      from edit mode! Use DestroyImmediate instead.
-
-      Destroying an object in
-      edit mode destroys it permanently.
-
-      Destroy may not be called from edit
-      mode! Use DestroyImmediate instead.
-
-      Destroying an object in edit mode
-      destroys it permanently.
-
-      Destroy may not be called from edit mode! Use
-      DestroyImmediate instead.
-
-      Destroying an object in edit mode destroys
-      it permanently.
-
-      Destroy may not be called from edit mode! Use DestroyImmediate
-      instead.
-
-      Destroying an object in edit mode destroys it permanently.
-
-      Destroy
-      may not be called from edit mode! Use DestroyImmediate instead.
-
-      Destroying
-      an object in edit mode destroys it permanently.
-
-      Destroy may not be called
-      from edit mode! Use DestroyImmediate instead.
-
-      Destroying an object in
-      edit mode destroys it permanently.
-
-      Destroy may not be called from edit
-      mode! Use DestroyImmediate instead.
-
-      Destroying an object in edit mode
-      destroys it permanently.'
-    m_ResultStacktrace: 'UnityEngine.Object:Destroy (UnityEngine.Object)
-
-      RobotManager:RemoveSensor
-      (string) (at Assets/Scripts/Robots/RobotManager.cs:88)
-
-      RobotManager:ClearAllSensors
-      () (at Assets/Scripts/Robots/RobotManager.cs:129)
-
-      RobotTests:RemovingSensor
-      () (at Assets/Roblocklly Tests/EditMode/RobotTests.cs:33)
-
-      System.Reflection.MethodBase:Invoke
-      (object,object[])
-
-      NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
-
-      NUnit.Framework.Internal.MethodWrapper:Invoke
-      (object,object[])
-
-      NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod
-      (NUnit.Framework.Internal.ITestExecutionContext)
-
-      NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod
-      (NUnit.Framework.Internal.ITestExecutionContext)
-
-      NUnit.Framework.Internal.Commands.TestMethodCommand:Execute
-      (NUnit.Framework.Internal.ITestExecutionContext)
-
-      UnityEditor.EditorApplication:Internal_CallUpdateFunctions
-      ()
-
-
-
-'
+    m_ResultText: Roblocklly_EPH (92 tests) (0.000s)
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 350c1624
-      m_LastClickedID: 605424693
-      m_ExpandedIDs: 78e3cf8fd1b981a5de7a0bb4a6c4dddf147838e6ffffff7f
+      m_SelectedIDs: d1b981a5
+      m_LastClickedID: -1518224943
+      m_ExpandedIDs: 78e3cf8fd1b981a5de7a0bb4a6c4dddf147838e68e4eea168cf0ac21ccb30b5bffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2483,7 +2352,7 @@ MonoBehaviour:
     m_SelectedOption: 0
   - m_Window: {fileID: 14}
     runProgress:
-      RunGuid: 3ccc33df-2f45-4481-bb91-ab9e69cbfdbb
+      RunGuid: 62ecb851-71dd-4a5b-acd6-9f6b7f19f30a
       ExecutionSettings:
         m_TargetPlatform: 0
         m_HasTargetPlatform: 0
@@ -2494,7 +2363,7 @@ MonoBehaviour:
           categoryNames: []
           assemblyNames: []
         filters:
-        - testMode: 1
+        - testMode: 2
           testNames: []
           groupNames: []
           categoryNames: []
@@ -2510,11 +2379,11 @@ MonoBehaviour:
           disableNestedEnumeratorBugfix: 0
         randomOrderSeed: 0
       HasFinished: 1
-      Progress: 0.99999934
+      Progress: 0.99999994
       CurrentStepName: Unlock Reload Assemblies
       CurrentStageName: 
     m_NewResultList:
-    - id: 1000
+    - id: 1115
       uniqueId: '[Roblocklly_EPH][suite]'
       name: Roblocklly_EPH
       fullName: Roblocklly_EPH
@@ -2530,10 +2399,10 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1006
-      uniqueId: '[Roblocklly-PlayMode][E:/Unity Projects/RoblockLLy-23-24/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll][suite]'
-      name: Roblocklly-PlayMode.dll
-      fullName: E:/Unity Projects/RoblockLLy-23-24/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll
+    - id: 1121
+      uniqueId: '[Assembly-CSharp][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+      name: Assembly-CSharp.dll
+      fullName: E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Assembly-CSharp.dll
       resultStatus: 1
       duration: 0
       messages: 
@@ -2544,9 +2413,109 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1000
+      parentId: 1115
       parentUniqueId: '[Roblocklly_EPH][suite]'
-    - id: 1001
+    - id: 1116
+      uniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+      name: RobotTests
+      fullName: RobotTests
+      resultStatus: 1
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1121
+      parentUniqueId: '[Assembly-CSharp][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+    - id: 1003
+      uniqueId: 'Assembly-CSharp.dll/RobotTests/[Assembly-CSharp][RobotTests.AddingMultipleSensors]'
+      name: AddingMultipleSensors
+      fullName: RobotTests.AddingMultipleSensors
+      resultStatus: 1
+      duration: 0.0151586
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+    - id: 1002
+      uniqueId: 'Assembly-CSharp.dll/RobotTests/[Assembly-CSharp][RobotTests.AddingSensor]'
+      name: AddingSensor
+      fullName: RobotTests.AddingSensor
+      resultStatus: 1
+      duration: 0.0003375
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+    - id: 1005
+      uniqueId: 'Assembly-CSharp.dll/RobotTests/[Assembly-CSharp][RobotTests.ClearSensors]'
+      name: ClearSensors
+      fullName: RobotTests.ClearSensors
+      resultStatus: 1
+      duration: 0.0012304
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+    - id: 1004
+      uniqueId: 'Assembly-CSharp.dll/RobotTests/[Assembly-CSharp][RobotTests.RemoveSensor]'
+      name: RemoveSensor
+      fullName: RobotTests.RemoveSensor
+      resultStatus: 1
+      duration: 0.0003144
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+    - id: 1127
+      uniqueId: '[Roblocklly-PlayMode][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll][suite]'
+      name: Roblocklly-PlayMode.dll
+      fullName: E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll
+      resultStatus: 1
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1115
+      parentUniqueId: '[Roblocklly_EPH][suite]'
+    - id: 1122
       uniqueId: 'Roblocklly-PlayMode.dll/[Roblocklly-PlayMode][RobotPlayTest][suite]'
       name: RobotPlayTest
       fullName: RobotPlayTest
@@ -2560,14 +2529,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1006
-      parentUniqueId: '[Roblocklly-PlayMode][E:/Unity Projects/RoblockLLy-23-24/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll][suite]'
+      parentId: 1127
+      parentUniqueId: '[Roblocklly-PlayMode][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll][suite]'
     - id: 1003
       uniqueId: 'Roblocklly-PlayMode.dll/RobotPlayTest/[Roblocklly-PlayMode][RobotPlayTest.AddingMultipleSensors]'
       name: AddingMultipleSensors
       fullName: RobotPlayTest.AddingMultipleSensors
       resultStatus: 1
-      duration: 0.0227999
+      duration: 0.0082599
       messages: 
       output: 
       stacktrace: 
@@ -2584,7 +2553,7 @@ MonoBehaviour:
       name: AddingSensor
       fullName: RobotPlayTest.AddingSensor
       resultStatus: 1
-      duration: 0.0045141
+      duration: 0.0035197
       messages: 
       output: 
       stacktrace: 
@@ -2601,7 +2570,7 @@ MonoBehaviour:
       name: ClearSensors
       fullName: RobotPlayTest.ClearSensors
       resultStatus: 1
-      duration: 0.0067087
+      duration: 0.003282
       messages: 
       output: 
       stacktrace: 
@@ -2618,7 +2587,7 @@ MonoBehaviour:
       name: RemoveSensor
       fullName: RobotPlayTest.RemoveSensor
       resultStatus: 1
-      duration: 0.0051893
+      duration: 0.0034887
       messages: 
       output: 
       stacktrace: 
@@ -2630,13 +2599,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1116
       parentUniqueId: 'Roblocklly-PlayMode.dll/[Roblocklly-PlayMode][RobotPlayTest][suite]'
-    m_ResultText: ClearSensors (0.007s)
+    m_ResultText: ClearSensors (0.001s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7e17db83
-      m_LastClickedID: -2082793602
-      m_ExpandedIDs: d1b981a51655e6ae780a3cbe2b47f8dd147838e6ffffff7f
+      m_SelectedIDs: fc3a2499
+      m_LastClickedID: -1725678852
+      m_ExpandedIDs: d1b981a51655e6ae4ea964af780a3cbe2b47f8dd147838e60570b11c0fbb4e3f2c12ae5effffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2666,7 +2635,7 @@ MonoBehaviour:
     m_SelectedOption: 0
   - m_Window: {fileID: 14}
     runProgress:
-      RunGuid: 3ccc33df-2f45-4481-bb91-ab9e69cbfdbb
+      RunGuid: 62ecb851-71dd-4a5b-acd6-9f6b7f19f30a
       ExecutionSettings:
         m_TargetPlatform: 0
         m_HasTargetPlatform: 0
@@ -2677,7 +2646,7 @@ MonoBehaviour:
           categoryNames: []
           assemblyNames: []
         filters:
-        - testMode: 1
+        - testMode: 2
           testNames: []
           groupNames: []
           categoryNames: []
@@ -2693,11 +2662,11 @@ MonoBehaviour:
           disableNestedEnumeratorBugfix: 0
         randomOrderSeed: 0
       HasFinished: 1
-      Progress: 0.99999934
+      Progress: 0.99999994
       CurrentStepName: Unlock Reload Assemblies
       CurrentStageName: 
     m_NewResultList:
-    - id: 1111
+    - id: 1016
       uniqueId: '[Roblocklly_EPH][suite]'
       name: Roblocklly_EPH
       fullName: Roblocklly_EPH
@@ -2713,13 +2682,213 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
+    - id: 1006
+      uniqueId: '[Assembly-CSharp][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+      name: Assembly-CSharp.dll
+      fullName: E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Assembly-CSharp.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1016
+      parentUniqueId: '[Roblocklly_EPH][suite]'
+    - id: 1001
+      uniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+      name: RobotTests
+      fullName: RobotTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: '[Assembly-CSharp][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+    - id: 1003
+      uniqueId: 'Assembly-CSharp.dll/RobotTests/[Assembly-CSharp][RobotTests.AddingMultipleSensors]'
+      name: AddingMultipleSensors
+      fullName: RobotTests.AddingMultipleSensors
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+    - id: 1002
+      uniqueId: 'Assembly-CSharp.dll/RobotTests/[Assembly-CSharp][RobotTests.AddingSensor]'
+      name: AddingSensor
+      fullName: RobotTests.AddingSensor
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+    - id: 1005
+      uniqueId: 'Assembly-CSharp.dll/RobotTests/[Assembly-CSharp][RobotTests.ClearSensors]'
+      name: ClearSensors
+      fullName: RobotTests.ClearSensors
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+    - id: 1004
+      uniqueId: 'Assembly-CSharp.dll/RobotTests/[Assembly-CSharp][RobotTests.RemoveSensor]'
+      name: RemoveSensor
+      fullName: RobotTests.RemoveSensor
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][RobotTests][suite]'
+    - id: 1012
+      uniqueId: '[Roblocklly-PlayMode][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll][suite]'
+      name: Roblocklly-PlayMode.dll
+      fullName: E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1016
+      parentUniqueId: '[Roblocklly_EPH][suite]'
+    - id: 1007
+      uniqueId: 'Roblocklly-PlayMode.dll/[Roblocklly-PlayMode][RobotPlayTest][suite]'
+      name: RobotPlayTest
+      fullName: RobotPlayTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: '[Roblocklly-PlayMode][E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Library/ScriptAssemblies/Roblocklly-PlayMode.dll][suite]'
+    - id: 1009
+      uniqueId: 'Roblocklly-PlayMode.dll/RobotPlayTest/[Roblocklly-PlayMode][RobotPlayTest.AddingMultipleSensors]'
+      name: AddingMultipleSensors
+      fullName: RobotPlayTest.AddingMultipleSensors
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: 'Roblocklly-PlayMode.dll/[Roblocklly-PlayMode][RobotPlayTest][suite]'
+    - id: 1008
+      uniqueId: 'Roblocklly-PlayMode.dll/RobotPlayTest/[Roblocklly-PlayMode][RobotPlayTest.AddingSensor]'
+      name: AddingSensor
+      fullName: RobotPlayTest.AddingSensor
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: 'Roblocklly-PlayMode.dll/[Roblocklly-PlayMode][RobotPlayTest][suite]'
+    - id: 1011
+      uniqueId: 'Roblocklly-PlayMode.dll/RobotPlayTest/[Roblocklly-PlayMode][RobotPlayTest.ClearSensors]'
+      name: ClearSensors
+      fullName: RobotPlayTest.ClearSensors
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: 'Roblocklly-PlayMode.dll/[Roblocklly-PlayMode][RobotPlayTest][suite]'
+    - id: 1010
+      uniqueId: 'Roblocklly-PlayMode.dll/RobotPlayTest/[Roblocklly-PlayMode][RobotPlayTest.RemoveSensor]'
+      name: RemoveSensor
+      fullName: RobotPlayTest.RemoveSensor
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: 'Roblocklly-PlayMode.dll/[Roblocklly-PlayMode][RobotPlayTest][suite]'
     m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d1b981a5ffffff7f
+      m_ExpandedIDs: d1b981a52c12ae5effffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2769,9 +2938,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 744.8
-    width: 1488.6
-    height: 329.19995
+    y: 697.6
+    width: 1502.2
+    height: 330
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2792,9 +2961,9 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes/Menus
+    - Assets/Roblocklly Tests/EditMode
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2804,16 +2973,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes/Menus
+  - Assets/Roblocklly Tests/EditMode
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: E:\Unity Projects\RoblockLLy-23-24\src
+  m_LastProjectPath: E:\Unity Projects\GitHub Projects\RoblockLLY-24-25\src
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 106.80005}
-    m_SelectedIDs: 3ca70100
-    m_LastClickedID: 108348
-    m_ExpandedIDs: 000000008cb600008eb6000090b6000092b6000094b6000096b6000098b600009ab600009cb600009eb60000a0b60000a2b60000a4b60000a6b60000a8b60000
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: b4c40000
+    m_LastClickedID: 50356
+    m_ExpandedIDs: 00000000f2b20000f4b20000f6b20000f8b20000fab20000fcb20000feb2000000b3000002b3000004b3000006b3000008b300000ab300000cb300000eb3000010b3000012b3000014b3000016b3000018b300001ab300001cb300001eb3000020b3000022b3000024b3000026b3000028b300002ab30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2842,7 +3011,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008cb600008eb6000090b6000092b6000094b6000096b6000098b600009ab600009cb600009eb60000a0b60000a2b60000a4b60000a6b60000a8b60000
+    m_ExpandedIDs: 00000000f2b20000f4b20000f6b20000f8b20000fab20000fcb20000feb2000000b3000002b3000004b3000006b3000008b300000ab300000cb300000eb3000010b3000012b3000014b3000016b3000018b300001ab300001cb300001eb3000020b3000022b3000024b3000026b3000028b300002ab30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2888,7 +3057,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2924,7 +3093,7 @@ MonoBehaviour:
     x: 0
     y: 24
     width: 315.8
-    height: 648.4
+    height: 647.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2941,7 +3110,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f6b6fcff5441fdffc241fdff2842fdff9242fdfff842fdff6443fdffca43fdff3044fdff9644fdfffe44fdff7245fdffd445fdfff24afdff1a4dfdff224efdff5c4efdffe84ffdffae50fdff4656fdff22fbffff8a5b0300
+      m_ExpandedIDs: 66ccffffeccfffffecd3ffff8ed6ffff3ad9ffff26dbffff16f2ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2987,10 +3156,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 317.8
-    y: 24
-    width: 1170.8
-    height: 648.4
+    x: 316.80002
+    y: 70.4
+    width: 1184.3999
+    height: 647.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3489,9 +3658,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -5.3977413, y: -4.886489, z: 4.485906}
+    m_Target: {x: -3.2819974, y: -5.13246, z: 6.387323}
     speed: 2
-    m_Value: {x: -5.3977413, y: -4.886489, z: 4.485906}
+    m_Value: {x: -3.2819974, y: -5.13246, z: 6.387323}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3537,13 +3706,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2869988, y: -0.42812687, z: 0.14549705, w: 0.8444989}
+    m_Target: {x: 0.31318182, y: -0.21732885, z: 0.07385831, w: 0.92154264}
     speed: 2
-    m_Value: {x: -0.2869988, y: 0.42812687, z: -0.14549705, w: -0.8444988}
+    m_Value: {x: -0.31318182, y: 0.21732885, z: -0.07385831, w: -0.92154264}
   m_Size:
-    m_Target: 7.421292
+    m_Target: 6.135528
     speed: 2
-    m_Value: 7.421292
+    m_Value: 6.135528
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3597,8 +3766,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 316.80002
     y: 70.4
-    width: 1170.8
-    height: 648.4
+    width: 1184.3999
+    height: 647.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3652,23 +3821,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1170.8
-      height: 627.4
-    m_Scale: {x: 0.7261574, y: 0.7261574}
-    m_Translation: {x: 585.4, y: 313.7}
+      width: 1184.3999
+      height: 626.6
+    m_Scale: {x: 0.72523147, y: 0.72523147}
+    m_Translation: {x: 592.19995, y: 313.3}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -806.1613
+      x: -816.56683
       y: -432
-      width: 1612.3226
+      width: 1633.1337
       height: 864
     m_MinimalGUI: 1
-  m_defaultScale: 0.7261574
-  m_LastWindowPixelSize: {x: 1170.8, y: 648.4}
+  m_defaultScale: 0.72523147
+  m_LastWindowPixelSize: {x: 1184.3999, y: 647.6}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -3697,9 +3866,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 698.4
-    width: 1488.6
-    height: 329.19995
+    y: 744
+    width: 1502.2
+    height: 330
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3732,9 +3901,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1490.6
-    y: 24
-    width: 557.4
+    x: 1503.2001
+    y: 70.4
+    width: 543.80005
     height: 1003.6
   m_SerializedDataModeController:
     m_DataMode: 0

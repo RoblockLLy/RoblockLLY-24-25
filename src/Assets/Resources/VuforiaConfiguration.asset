@@ -18,7 +18,7 @@ MonoBehaviour:
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 10
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
     thirdPartyARCoreClientDetected: 0
   playmode:
     mRecordingPath: Assets/SamplesResources/Recordings/vfx_modeltarget_recording.mp4
-    playModeType: 2
+    playModeType: 0
   webcam:
     renderTextureLayer: 30
   packageInformation:
