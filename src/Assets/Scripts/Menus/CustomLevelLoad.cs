@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CustomLevelLoad : MonoBehaviour {
-  public string levelCode = "";
+  private string levelCode = "";
 
   // Start is called once before the first execution of Update after the MonoBehaviour is created
   void Start()
@@ -14,6 +14,10 @@ public class CustomLevelLoad : MonoBehaviour {
   void Update()
   {
       
+  }
+
+  public void setLevelCode(string code) {
+    levelCode = code;
   }
 
   public void LoadLevel() {

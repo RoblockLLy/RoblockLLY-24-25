@@ -433,6 +433,7 @@
 "Assets/Scripts/Menus/GithubDownloader.cs"
 "Assets/Scripts/Menus/LevelCreatorManager.cs"
 "Assets/Scripts/Menus/LevelMenuManager.cs"
+"Assets/Scripts/Menus/LevelViewer.cs"
 "Assets/Scripts/Menus/LoaderPanelMenuManager.cs"
 "Assets/Scripts/Menus/MainMenuManager.cs"
 "Assets/Scripts/Menus/PlatformRotator.cs"

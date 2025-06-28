@@ -172,6 +172,7 @@
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\CSharp\Generators\Variables_CSharp.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Field\FieldDropdown.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Dialogs\MutatorDialogs\IfElseMutatorDialog.cs" />
+    <Compile Include="Assets\Scripts\Menus\LevelViewer.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Field\FieldTextInput.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Views\Fields\FieldImageView.cs" />

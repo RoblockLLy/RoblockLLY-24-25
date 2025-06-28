@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Newtonsoft.Json.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -10,16 +11,6 @@ using UnityEngine.Networking;
 public class GithubDownloader : MonoBehaviour {
   
   #region Atributos
-  
-  [Header("Temp")]
-  [SerializeField]
-  public GameObject levelPanel;
-  [SerializeField]
-  public GameObject levelPanelParent;
-  [SerializeField]
-  public GameObject levelPanelPrefab;
-  [SerializeField]
-  public RectTransform contentHeight;
 
   [Header("GitHub Settings")]
   [SerializeField] [Tooltip("Nombre del usuario propietario (u organización) que creo el repositorio a buscar")] 
@@ -35,10 +26,14 @@ public class GithubDownloader : MonoBehaviour {
   [SerializeField] [Tooltip("Objeto que contiene el token encriptado y las funciones para desencriptarlo")]
   public TokenEncryptor encriptador;
 
+  [Header("Level Viewer")]
+  [SerializeField] [Tooltip("Manager para el browser de niveles, recibira los niveles cargados")]
+  public LevelViewer levelViewer;
+
   /// <summary>
   /// Array que contendra los contenidos de cada fichero .json
   /// </summary>
-  public List<String> levelJsonFiles;
+  private List<string> levelJsonFiles;
 
   #endregion
 
@@ -51,8 +46,6 @@ public class GithubDownloader : MonoBehaviour {
   }
 
   private IEnumerator DownloadLevelsCoroutine() {
-    // levelPanel.SetActive(false);
-    
     string url = $"https://api.github.com/repos/{repoOwner}/{repoName}/contents/{levelsFolder}?ref={branch}";
 
     UnityWebRequest request = UnityWebRequest.Get(url);
@@ -78,21 +71,7 @@ public class GithubDownloader : MonoBehaviour {
     }
 
     levelJsonFiles = jsonFiles;
-
-    contentHeight.sizeDelta = new Vector2(0f, (100 * levelJsonFiles.Count) + 5);
-    for (int i = 0; i < levelJsonFiles.Count; i++) {
-      GameObject newObject = Instantiate(levelPanelPrefab);
-      newObject.transform.SetParent(levelPanelParent.transform);
-      newObject.transform.GetComponent<RectTransform>().localScale = new Vector3(1f, 1f, 1f);
-      newObject.transform.GetComponent<RectTransform>().localPosition = new Vector3(750f, -152.5f - (100f * i), 0f);
-
-      Transform titleTransform = newObject.transform.Find("Title");
-      titleTransform.GetComponent<TextMeshProUGUI>().text = "Level " + i;
-
-      newObject.GetComponent<CustomLevelLoad>().levelCode = levelJsonFiles[i];
-    }
-
-    // levelPanel.SetActive(true);
+    levelViewer.setLevels(levelJsonFiles);
     Debug.Log($"✅ {levelJsonFiles.Count} archivos .json descargados desde {levelsFolder}/");
   }
 
