@@ -1,10 +1,10 @@
 /**
 * Universidad de La Laguna
 * Proyecto: Roblockly
-* Autor: Edwin Plasencia Hernández
+* Autor: Edwin Plasencia Hernï¿½ndez
 * Email: alu0101329888@ull.edu.es
 * Fecha: 13/05/2024
-* Descripción: LevelManager: Manager genérico de niveles, maneja las cámaras, los botones del canvas
+* Descripciï¿½n: LevelManager: Manager genï¿½rico de niveles, maneja las cï¿½maras, los botones del canvas
 *                            relacionados con el nivel, spawns y banderas
 */
 
@@ -29,17 +29,17 @@ public class LevelManager : MonoBehaviour {
 
     public event Action OnReset; // Evento para avisar a todos los interactuables de la escena de que se reinicia el nivel
 
-    private List<Vector3> movableObjectsSpawnPositions = new List<Vector3>();       // Posición inicial a reiniciar de dichos objetos
-    private List<Quaternion> movableObjectsSpawnRotations = new List<Quaternion>(); // Rotación inicial a reiniciar de dichos objetos
+    private List<Vector3> movableObjectsSpawnPositions = new List<Vector3>();       // Posiciï¿½n inicial a reiniciar de dichos objetos
+    private List<Quaternion> movableObjectsSpawnRotations = new List<Quaternion>(); // Rotaciï¿½n inicial a reiniciar de dichos objetos
 
     public GameObject errorPanel;           // Panel de errores
-    public Text errorTitle;                 // Título del panel de errores
+    public Text errorTitle;                 // Tï¿½tulo del panel de errores
 
     public List<GameObject> victoryPanels;  // Paneles de victoria de cada canvas a activar al lograr una victoria
-    public List<Text> challengeTitles;      // Títulos en los paneles de victoria a reemplazar con el nombre del desafío
+    public List<Text> challengeTitles;      // Tï¿½tulos en los paneles de victoria a reemplazar con el nombre del desafï¿½o
     public List<Text> timeResults;          // Textos en los paneles de victoria a reemplazar con el tiempo logrado
-    public List<Text> blockCountResults;    // Textos en los paneles de victoria a reemplazar con el número de bloques usado
-    public List<Text> scoreResults;         // Textos en los paneles de victoria a reemplazar con la calificación obtenida
+    public List<Text> blockCountResults;    // Textos en los paneles de victoria a reemplazar con el nï¿½mero de bloques usado
+    public List<Text> scoreResults;         // Textos en los paneles de victoria a reemplazar con la calificaciï¿½n obtenida
 
     public List<Text> chrono;               // Textos a reemplazar en los canvas por el tiempo de intento
     private float chronoTime = 0.0f;        // Contador
@@ -47,15 +47,15 @@ public class LevelManager : MonoBehaviour {
 
     public WorkspaceView ublocklyWorkspace; // Elemento workspace de ublockly en el canvas
     public PlayControlView controlPanel;    // Elemento control panel de ublockly en el canvas
-    public SettingsMenuManager settingsMenuManager; // Manager del menú de opciones para pedir una actualización de los botones de estadísticas al ganar un nivel
-    private StatsManager statsManager;              // Manager de estadísticas para guardar los valores de un intento
+    public SettingsMenuManager settingsMenuManager; // Manager del menï¿½ de opciones para pedir una actualizaciï¿½n de los botones de estadï¿½sticas al ganar un nivel
+    private StatsManager statsManager;              // Manager de estadï¿½sticas para guardar los valores de un intento
 
-    public List<GameObject> spawnPoints; // Lugares de aparición de robots
+    public List<GameObject> spawnPoints; // Lugares de apariciï¿½n de robots
     public List<GameObject> flags;       // Banderas de victoria
-    public List<GameObject> movableObjects; // Objetos a reiniciar posición, rotación y cinética al inicio de cada intento
+    public List<GameObject> movableObjects; // Objetos a reiniciar posiciï¿½n, rotaciï¿½n y cinï¿½tica al inicio de cada intento
     private List<GameObject> robots = new List<GameObject>();   // Lista de robots
 
-    public string levelName;        // Nombre del nivel para guardar en las estadísticas de juego
+    public string levelName;        // Nombre del nivel para guardar en las estadï¿½sticas de juego
     public int devStatsMinutes;     // Valor de los minutos a vencer
     public int devStatsSeconds;     // Valor de los segundos a vencer
     public int devStatsBlocksUsed;  // Valor de los bloques usados a vencer
@@ -140,7 +140,7 @@ public class LevelManager : MonoBehaviour {
         }
     }
 
-    void Start() {  // Guardamos en una lista los robots para más fácil acceso, luego los movemos a sus respectivos lugares de aparición
+    void Start() {  // Guardamos en una lista los robots para mï¿½s fï¿½cil acceso, luego los movemos a sus respectivos lugares de apariciï¿½n
                     // y nos suscribimos al evento de sensorMissing para avisar con un error cuando se intente acceder a un sensor que no existe
         for (int i = 0; i < spawnPoints.Count; i++) {
             robots.Add(VaultManager.vaultInstance.getObject("Robot " + (i + 1)));
@@ -148,9 +148,9 @@ public class LevelManager : MonoBehaviour {
             robots[i].transform.rotation = spawnPoints[i].transform.rotation;
             robots[i].GetComponent<RobotManager>().sensorMissing += ShowError;
         }
-        // Desactivamos la cinética de los robots y objetos a reiniciar por intento
+        // Desactivamos la cinï¿½tica de los robots y objetos a reiniciar por intento
         DisableElements();
-        // Guardamos la posición y rotación de los objetos a reiniciar por intento
+        // Guardamos la posiciï¿½n y rotaciï¿½n de los objetos a reiniciar por intento
         foreach (GameObject movableObject in movableObjects) {
             movableObjectsSpawnPositions.Add(movableObject.transform.position);
             movableObjectsSpawnRotations.Add(movableObject.transform.rotation);
@@ -163,7 +163,7 @@ public class LevelManager : MonoBehaviour {
         foreach (Text chr in chrono) {
             chr.text = "00:00";
         }
-        // Obtenemos la referencia al manager de estadísticas y le introducimos los valores del récord a batir (dev stats)
+        // Obtenemos la referencia al manager de estadï¿½sticas y le introducimos los valores del rï¿½cord a batir (dev stats)
         statsManager = VaultManager.vaultInstance.getObject("StatsManager").GetComponent<StatsManager>();
         statsManager.addDevStats(levelName, new Stats(new List<int>(2) { devStatsMinutes, devStatsSeconds }, devStatsBlocksUsed, "X"));
     }
@@ -172,7 +172,7 @@ public class LevelManager : MonoBehaviour {
         UpdateChrono();
     }
 
-    void ShowError((string type, string position) message) { // Abre el panel de error con el error a enseñar
+    void ShowError((string type, string position) message) { // Abre el panel de error con el error a enseï¿½ar
         errorTitle.text = "Missing " + message.type + " sensor at the " + message.position + " slot";
         errorPanel.SetActive(true);
     }
@@ -181,7 +181,7 @@ public class LevelManager : MonoBehaviour {
         errorPanel.SetActive(false);
     }
 
-    public void EnableElements() { // Esta función activa la cinética de los robots y objetos a reiniciar por intento
+    public void EnableElements() { // Esta funciï¿½n activa la cinï¿½tica de los robots y objetos a reiniciar por intento
         foreach (GameObject robot in robots) {
             robot.GetComponent<RobotManager>().EnableRobotPhysics();
         }
@@ -192,7 +192,7 @@ public class LevelManager : MonoBehaviour {
         }
     }
 
-    public void DisableElements() { // Esta función desactiva la cinética de los robots y objetos a reiniciar por intento
+    public void DisableElements() { // Esta funciï¿½n desactiva la cinï¿½tica de los robots y objetos a reiniciar por intento
         foreach (GameObject robot in robots) {
             robot.GetComponent<RobotManager>().DisableRobotPhysics();
         }
@@ -211,7 +211,7 @@ public class LevelManager : MonoBehaviour {
         chronoRunning = false;
     }
 
-    public void ResetChrono() { // Pausa y reinicia el contador de tiempo (el texto no, puede añadirse si se desea)
+    public void ResetChrono() { // Pausa y reinicia el contador de tiempo (el texto no, puede aï¿½adirse si se desea)
         chronoRunning = false;
         chronoTime = 0.0f;
         //foreach (Text chronoText in chrono) {
@@ -220,11 +220,11 @@ public class LevelManager : MonoBehaviour {
     }
 
     public void ResetLevel() { // Reinicia el nivel por completo
-        // Paramos el intérprete de ublockly si estuviese ejecutándose
+        // Paramos el intï¿½rprete de ublockly si estuviese ejecutï¿½ndose
         UBlockly.CSharp.Runner.Stop();
-        // Desactivamos la cinética de robots y objetos a reiniciar por intento
+        // Desactivamos la cinï¿½tica de robots y objetos a reiniciar por intento
         DisableElements();
-        // Movemos al punto de aparición robots y objetos
+        // Movemos al punto de apariciï¿½n robots y objetos
         for (int i = 0; i < spawnPoints.Count; i++) {
             robots[i].transform.position = spawnPoints[i].transform.position;
             robots[i].transform.rotation = spawnPoints[i].transform.rotation;
@@ -235,11 +235,11 @@ public class LevelManager : MonoBehaviour {
         }
         // Reiniciamos el contador de tiempo
         ResetChrono();
-        // Limpiamos las señales enviadas
+        // Limpiamos las seï¿½ales enviadas
         CommsManager.commsManager.RemoveAllSignals();
         // Limpiamos las agrupaciones de robots
         CommsManager.commsManager.ClearGroups();
-        // Activamos los scripts de las banderas por si están desactivados debido a una victoria
+        // Activamos los scripts de las banderas por si estï¿½n desactivados debido a una victoria
         foreach (GameObject flag in flags) {
             flag.GetComponent<FlagBehaviour>().enabled = true;
         }
@@ -259,14 +259,14 @@ public class LevelManager : MonoBehaviour {
     }
 
     void Victory() { // En caso de victoria
-        // Paramos al intérprete de ublockly si estuviese en ejecución y desactivamos la cinética de robots y objetos
+        // Paramos al intï¿½rprete de ublockly si estuviese en ejecuciï¿½n y desactivamos la cinï¿½tica de robots y objetos
         UBlockly.CSharp.Runner.Stop();
         DisableElements();
-        // Si la victoria se obtuvo en ejecución normal y no con debug para evitar hacer trampas:
+        // Si la victoria se obtuvo en ejecuciï¿½n normal y no con debug para evitar hacer trampas:
         if (!controlPanel.getDebugMode()) {
             // Desactivamos el contador de tiempo
             chronoRunning = false;
-            // Obtenemos las estadísticas del nivel y subimos al manager de estadísticas las obtenidas en este intento
+            // Obtenemos las estadï¿½sticas del nivel y subimos al manager de estadï¿½sticas las obtenidas en este intento
             Stats devStats = statsManager.getDevStats(levelName);
             statsManager.addStats(levelName, new Stats(new List<int>() { (int)(chronoTime / 60), (int)(chronoTime % 60) }, ublocklyWorkspace.GetUsedBlocks(), CalculateScore(devStats)));
             // Ahora mostramos y establecemos en cada victory panel los resultados
@@ -277,7 +277,7 @@ public class LevelManager : MonoBehaviour {
                 blockCountResults[i].text = ublocklyWorkspace.GetUsedBlocks().ToString();
                 scoreResults[i].text = CalculateScore(devStats);
             }
-            // Llamamos al manager del menú de opciones para avisarle de que tiene que actualizar los botones de stats por nivel
+            // Llamamos al manager del menï¿½ de opciones para avisarle de que tiene que actualizar los botones de stats por nivel
             settingsMenuManager.SetChallengeButtons();
         }
         // Desactivamos los scripts de las banderas para que dejen de contar si son por timer
@@ -286,7 +286,7 @@ public class LevelManager : MonoBehaviour {
         }
     }
 
-    public void Improve() { // Esta función se llama al pulsar el botón de mejorar intento en el panel de victoria
+    public void Improve() { // Esta funciï¿½n se llama al pulsar el botï¿½n de mejorar intento en el panel de victoria
         // Reinicia el nivel y desactiva los paneles de victoria para seguir jugando
         ResetLevel();
         for (int i = 0; i < victoryPanels.Count; i++) {
@@ -302,7 +302,7 @@ public class LevelManager : MonoBehaviour {
         return flags;
     }
 
-    string CalculateScore(Stats devStats) { // Calcula las puntuaciones/calificación de un intento teniendo en cuenta los valores a vencer
+    string CalculateScore(Stats devStats) { // Calcula las puntuaciones/calificaciï¿½n de un intento teniendo en cuenta los valores a vencer
         int min = (int)(chronoTime / 60);
         int sec = (int)(chronoTime % 60);
         int blocks = ublocklyWorkspace.GetUsedBlocks();
@@ -327,19 +327,19 @@ public class LevelManager : MonoBehaviour {
             return "B";
         }
         int extraSeconds = (min * 60 + sec) - (devMin * 60 - sec);
-        // C si el tiempo es mayor que el del dev por menos de 10 segundos y usa más bloques
+        // C si el tiempo es mayor que el del dev por menos de 10 segundos y usa mï¿½s bloques
         if (extraSeconds <= 10) {
             return "C";
         }
-        // C si el tiempo es mayor que el del dev por menos de 30 segundos y usa más bloques
+        // C si el tiempo es mayor que el del dev por menos de 30 segundos y usa mï¿½s bloques
         if (extraSeconds <= 30) {
             return "D";
         }
-        // F si el tiempo es mayor que el del dev por más de 30 segundos y usa más bloques
+        // F si el tiempo es mayor que el del dev por mï¿½s de 30 segundos y usa mï¿½s bloques
         return "F";
     }
 
-    public void ExitLevel() { // Vuelve al menú de selección de niveles
+    public void ExitLevel() { // Vuelve al menï¿½ de selecciï¿½n de niveles
         SceneManager.LoadScene(1);
     }
 }

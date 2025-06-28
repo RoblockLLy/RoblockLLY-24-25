@@ -59,7 +59,7 @@
     <UnityVersion>6000.0.33f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\Usuario\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Usuario\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -116,6 +116,7 @@
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\Lua\Lua.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\BlockStatusView.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Extensions\UGUIHelper.cs" />
+    <Compile Include="Assets\Scripts\Menus\TokenEncryptor.cs" />
     <Compile Include="Assets\Scripts\Levels\Managers\LevelCamerasManager.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\CSharp\CSharp.cs" />
@@ -204,6 +205,7 @@
     <Compile Include="Assets\WebGLCopyAndPaste\Scripts\WebGLCopyAndPaste.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Code\Cmdtor.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\Lua\LuaRunner.cs" />
+    <Compile Include="Assets\Scripts\Menus\GithubDownloader.cs" />
     <Compile Include="Assets\Scripts\Menus\CreatorPanelMenuManager.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Dialogs\VariableNameDialog.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Define.cs" />
@@ -212,6 +214,7 @@
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Views\Fields\FieldCheckboxView.cs" />
     <Compile Include="Assets\Scripts\Levels\Interactables\Passive Interactables\ElevatorInteractable.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Utils.cs" />
+    <Compile Include="Assets\Scripts\Menus\CustomLevelLoad.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\Lua\Generators\List_Lua.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\Lua\Generators\Text_Lua.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Mutator\Mutators\IndexAtMutator.cs" />
@@ -268,53 +271,34 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\StreamingAssets\Vuforia\VSY_Pump_360.xml" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\VFXCore\Shaders\Transparent\Phantom.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Unity - OFL.txt" />
-    <None Include="Assets\VFXCore\Shaders\Transparent\AxialClipTransparent.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
     <None Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-    <None Include="Assets\VFXCore\Shaders\VuforiaVFX.cginc" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\VFXCore\Shaders\Lit\VolumeTexture.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\VFXCore\Shaders\Unlit\Vignette.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
-    <None Include="Assets\VFXCore\Shaders\Depth\DepthNormalContour.shader" />
-    <None Include="Assets\VFXCore\Shaders\Depth\DepthMaskSphereCut.shader" />
-    <None Include="Assets\VFXCore\Shaders\Lit\AxialClip.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Third-Party\Free Stylized Skybox\ReadMe.txt" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\SamplesResources\SceneAssets\GroundPlane\Effects\XRay\Shaders\Character.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Third-Party\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\VFXCore\Shaders\Unlit\UnlitColorTexture.shader" />
-    <None Include="Assets\VFXCore\Shaders\Unlit\UnlitTextureHeightClip.shader" />
-    <None Include="Assets\VFXCore\Shaders\Transparent\LightWave.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\VFXCore\Shaders\Transparent\XRaySphereCut.shader" />
     <None Include="Assets\Third-Party\uBlockly\Assets\Source\Libs\Newtonsoft.Json.dll" />
-    <None Include="Assets\VFXCore\Shaders\Depth\DepthMapContour.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\SamplesResources\SceneAssets\GroundPlane\Effects\XRay\Shaders\CharacterHelper.cginc" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\VFXCore\Shaders\Transparent\XRay.shader" />
-    <None Include="Assets\VFXCore\Shaders\Unlit\RadialFade.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\StreamingAssets\Vuforia\AreaTargetSample.xml" />
     <None Include="Assets\Third-Party\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
@@ -783,24 +767,24 @@
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Vuforia.Unity.Wrapper">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Wrapper.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Vuforia.Unity.Engine">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+      <HintPath>Assets\Third-Party\uBlockly\Assets\Source\Libs\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1295,10 +1279,6 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1309,6 +1289,10 @@
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
@@ -1387,10 +1371,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="VuforiaEditorScripts">
-      <HintPath>Library\ScriptAssemblies\VuforiaEditorScripts.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
       <Private>False</Private>
@@ -1429,10 +1409,6 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="VuforiaScripts">
-      <HintPath>Library\ScriptAssemblies\VuforiaScripts.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
@@ -1505,16 +1481,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="VFXCoreEditor.csproj" />
-    <ProjectReference Include="VFXLibraryScripts.csproj" />
     <ProjectReference Include="ScriptsPersistance.csproj" />
     <ProjectReference Include="ScriptsSensors.csproj" />
-    <ProjectReference Include="VuforiaVersionCheckerScripts.csproj" />
-    <ProjectReference Include="CommonScripts.csproj" />
     <ProjectReference Include="ScriptsRobots.csproj" />
-    <ProjectReference Include="VFXCore.csproj" />
     <ProjectReference Include="ScriptsStats.csproj" />
-    <ProjectReference Include="CommonEditor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
