@@ -430,6 +430,7 @@
 "Assets/Scripts/Levels/Managers/RobotCameraHandleRotator.cs"
 "Assets/Scripts/Menus/CreatorPanelMenuManager.cs"
 "Assets/Scripts/Menus/CustomLevelLoad.cs"
+"Assets/Scripts/Menus/EnterKeySearch.cs"
 "Assets/Scripts/Menus/GithubDownloader.cs"
 "Assets/Scripts/Menus/LevelCreatorManager.cs"
 "Assets/Scripts/Menus/LevelMenuManager.cs"

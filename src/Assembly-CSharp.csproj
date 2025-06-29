@@ -163,6 +163,7 @@
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Connection\ConnectionDB.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Res\BlockResMgr.cs" />
+    <Compile Include="Assets\Scripts\Menus\EnterKeySearch.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Xml.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Scripts\Levels\Interactables\PassiveInteractable.cs" />
