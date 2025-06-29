@@ -1,20 +1,17 @@
+/**
+* Universidad de La Laguna
+* Proyecto: Roblockly-Android
+* Autor: Thomas Edward Bradley
+* Email: alu0101408248@ull.edu.es
+* Fecha: 28/06/2025
+* Descripcion: 
+*/
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CustomLevelLoad : MonoBehaviour {
   private string levelCode = "";
-
-  // Start is called once before the first execution of Update after the MonoBehaviour is created
-  void Start()
-  {
-      
-  }
-
-  // Update is called once per frame
-  void Update()
-  {
-      
-  }
 
   public void setLevelCode(string code) {
     levelCode = code;

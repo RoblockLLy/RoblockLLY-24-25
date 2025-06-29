@@ -1,3 +1,12 @@
+/**
+* Universidad de La Laguna
+* Proyecto: Roblockly-Android
+* Autor: Thomas Edward Bradley
+* Email: alu0101408248@ull.edu.es
+* Fecha: 28/06/2025
+* Descripcion: 
+*/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,6 +14,7 @@ using Newtonsoft.Json.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelViewer : MonoBehaviour {
  
@@ -21,6 +31,8 @@ public class LevelViewer : MonoBehaviour {
   [Header("Search Box")]
   [SerializeField] [Tooltip("")]
   public TextMeshProUGUI searchInput;
+  [SerializeField] [Tooltip("")]
+  public TextMeshProUGUI selectedSearch;  // Hay texto vinculado pero es invisible, facilita averiguar la opción seleccionada
 
   /// <summary>
   /// 
@@ -50,14 +62,14 @@ public class LevelViewer : MonoBehaviour {
     string cleanText = CleanInput(searchInput.text.ToLower().Trim());   // IMPORTANTE: limpiar caracteres ocultos del texto
 
     if (string.IsNullOrEmpty(searchInput.text)) {                       // Campo de busqueda vacio, mostramos todo
-      filteredList = fullLevelList;
       refreshLevelViewer();
       return;
     }
 
     foreach (string level in fullLevelList) {                           // Metemos todo lo que empareja en la lista filtrada
       JObject json = JObject.Parse(level);
-      string levelNameClean = json["environment"]["level_name"].ToString().ToLower().Trim();
+      string searchType = (selectedSearch.text == "Name") ? "level_name" : "user_name";   // Vemos si tenemos que buscar por nombre o creador
+      string levelNameClean = json["environment"][searchType].ToString().ToLower().Trim();
       if (levelNameClean.Contains(cleanText)) filteredList.Add(level);
     }
 
@@ -67,31 +79,6 @@ public class LevelViewer : MonoBehaviour {
     }
 
     refreshLevelViewer();                                               // Actualizamos los niveles mostrados por pantalla
-  }
-
-  /// <summary>
-  /// 
-  /// </summary>
-  /// <param name="input"></param>
-  /// <returns></returns>
-  private string CleanInput(string input) {
-    if (input == null) return "";
-
-    // Remove common invisible Unicode characters
-    string[] invisibleChars = {
-      "\u200B", // Zero-width space
-      "\u200C", // Zero-width non-joiner
-      "\u200D", // Zero-width joiner
-      "\u200E", // Left-to-right mark
-      "\u200F", // Right-to-left mark
-      "\uFEFF"  // Byte Order Mark (BOM)
-    };
-
-    foreach (string ch in invisibleChars) {
-      input = input.Replace(ch, "");
-    }
-
-    return input.Trim();
   }
 
   /// <summary>
@@ -125,6 +112,31 @@ public class LevelViewer : MonoBehaviour {
     foreach (Transform child in levelPanelParent.transform) {
       Destroy(child.gameObject);
     }
+  }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  /// <param name="input"></param>
+  /// <returns></returns>
+  private string CleanInput(string input) {
+    if (input == null) return "";
+
+    // Remove common invisible Unicode characters
+    string[] invisibleChars = {
+      "\u200B", // Zero-width space
+      "\u200C", // Zero-width non-joiner
+      "\u200D", // Zero-width joiner
+      "\u200E", // Left-to-right mark
+      "\u200F", // Right-to-left mark
+      "\uFEFF"  // Byte Order Mark (BOM)
+    };
+
+    foreach (string ch in invisibleChars) {
+      input = input.Replace(ch, "");
+    }
+
+    return input.Trim();
   }
 
   /// <summary>

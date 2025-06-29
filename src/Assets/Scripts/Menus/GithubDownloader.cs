@@ -1,10 +1,15 @@
+/**
+* Universidad de La Laguna
+* Proyecto: Roblockly-Android
+* Autor: Thomas Edward Bradley
+* Email: alu0101408248@ull.edu.es
+* Fecha: 28/06/2025
+* Descripcion: 
+*/
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Newtonsoft.Json.Linq;
-using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -55,7 +60,7 @@ public class GithubDownloader : MonoBehaviour {
     yield return request.SendWebRequest();
 
     if (request.result != UnityWebRequest.Result.Success) {
-      Debug.LogError("Failed to fetch file list: " + request.error);
+      Debug.LogError("Error al pillar la lista de ficheros: " + request.error);
       yield break;
     }
 
@@ -72,7 +77,7 @@ public class GithubDownloader : MonoBehaviour {
 
     levelJsonFiles = jsonFiles;
     levelViewer.setLevels(levelJsonFiles);
-    Debug.Log($"✅ {levelJsonFiles.Count} archivos .json descargados desde {levelsFolder}/");
+    Debug.Log($"Se han descargado {levelJsonFiles.Count} niveles desde el repositorio");
   }
 
   private IEnumerator DownloadFileContent(string fileUrl, List<string> jsonFiles) {
@@ -85,7 +90,7 @@ public class GithubDownloader : MonoBehaviour {
     if (fileRequest.result == UnityWebRequest.Result.Success) {
       jsonFiles.Add(fileRequest.downloadHandler.text);
     } else {
-      Debug.LogWarning($"⚠️ Falló la descarga de: {fileUrl}");
+      Debug.LogWarning($"Falló en la descarga de: {fileUrl}");
     }
   }
 
