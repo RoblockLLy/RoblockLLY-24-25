@@ -35,6 +35,10 @@ public class GithubDownloader : MonoBehaviour {
   [SerializeField] [Tooltip("Manager para el browser de niveles, recibira los niveles cargados")]
   public LevelViewer levelViewer;
 
+  [Header("Loading Panel")]
+  [SerializeField] [Tooltip("")]
+  public GameObject loadingPanel;
+
   /// <summary>
   /// Array que contendra los contenidos de cada fichero .json
   /// </summary>
@@ -51,56 +55,74 @@ public class GithubDownloader : MonoBehaviour {
   }
 
   private IEnumerator DownloadLevelsCoroutine() {
+    loadingPanel.SetActive(true);
     string url = $"https://api.github.com/repos/{repoOwner}/{repoName}/contents/{levelsFolder}?ref={branch}";
 
     UnityWebRequest request = UnityWebRequest.Get(url);
-    request.SetRequestHeader("Authorization", "Bearer " + encriptador.DecryptString());
     request.SetRequestHeader("User-Agent", "UnityDownloader");
+    if (!string.IsNullOrEmpty(encriptador.DecryptString())) {
+      request.SetRequestHeader("Authorization", "Bearer " + encriptador.DecryptString());
+    }
 
     yield return request.SendWebRequest();
 
     if (request.result != UnityWebRequest.Result.Success) {
-      Debug.LogError("Error al pillar la lista de ficheros: " + request.error);
+      Debug.LogError("❌ Error fetching file list: " + request.error);
+      loadingPanel.SetActive(false);
       yield break;
     }
 
-    // Parse file list
     var jsonArray = JsonHelper.GetJsonArray<GitHubFileInfo>(FixJsonArray(request.downloadHandler.text));
     var jsonFiles = new List<string>();
 
     foreach (var file in jsonArray) {
-      // Debug.Log(file.name);
       if (file.name.EndsWith(".json")) {
-        yield return StartCoroutine(DownloadFileContent(file.download_url, jsonFiles));
+        yield return StartCoroutine(DownloadFileContent(file.name, jsonFiles));
       }
     }
 
     levelJsonFiles = jsonFiles;
     levelViewer.setLevels(levelJsonFiles);
-    Debug.Log($"Se han descargado {levelJsonFiles.Count} niveles desde el repositorio");
+    loadingPanel.SetActive(false);
+    Debug.Log($"✅ Downloaded {levelJsonFiles.Count} level(s) from GitHub");
   }
 
-  private IEnumerator DownloadFileContent(string fileUrl, List<string> jsonFiles) {
-    UnityWebRequest fileRequest = UnityWebRequest.Get(fileUrl);
-    fileRequest.SetRequestHeader("Authorization", "Bearer " + encriptador.DecryptString());
+  private IEnumerator DownloadFileContent(string fileName, List<string> jsonFiles) {
+    string fileApiUrl = $"https://api.github.com/repos/{repoOwner}/{repoName}/contents/{levelsFolder}/{fileName}?ref={branch}";
+
+    UnityWebRequest fileRequest = UnityWebRequest.Get(fileApiUrl);
     fileRequest.SetRequestHeader("User-Agent", "UnityDownloader");
+    if (!string.IsNullOrEmpty(encriptador.DecryptString())) {
+      fileRequest.SetRequestHeader("Authorization", "Bearer " + encriptador.DecryptString());
+    }
 
     yield return fileRequest.SendWebRequest();
 
-    if (fileRequest.result == UnityWebRequest.Result.Success) {
-      jsonFiles.Add(fileRequest.downloadHandler.text);
-    } else {
-      Debug.LogWarning($"Falló en la descarga de: {fileUrl}");
+    if (fileRequest.result != UnityWebRequest.Result.Success) {
+      Debug.LogWarning($"⚠️ Failed to download file: {fileName}, Error: {fileRequest.error}");
+      yield break;
+    }
+
+    try {
+      string json = fileRequest.downloadHandler.text;
+      var fileInfo = JsonUtility.FromJson<GitHubContentFile>(json);
+      string decodedContent = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(fileInfo.content));
+      jsonFiles.Add(decodedContent);
+    } catch (Exception e) {
+      Debug.LogWarning($"⚠️ Error decoding file {fileName}: {e.Message}");
     }
   }
 
   [Serializable]
   public class GitHubFileInfo {
     public string name;
-    public string download_url;
   }
 
-  // Helper to parse JSON arrays (GitHub returns them without a wrapper)
+  [Serializable]
+  public class GitHubContentFile {
+    public string content;
+  }
+
   public static class JsonHelper {
     public static T[] GetJsonArray<T>(string json) {
       string newJson = "{ \"array\": " + json + "}";
@@ -114,7 +136,6 @@ public class GithubDownloader : MonoBehaviour {
     }
   }
 
-  // GitHub returns raw JSON arrays. JsonUtility needs a wrapped object.
   private string FixJsonArray(string rawJsonArray) => rawJsonArray.TrimStart().StartsWith("[") ? rawJsonArray : "[]";
 
 }

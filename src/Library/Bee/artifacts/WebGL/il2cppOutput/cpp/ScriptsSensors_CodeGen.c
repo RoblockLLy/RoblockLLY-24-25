@@ -1,0 +1,92 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void ColorSensorManager_GetReading_m42860A91D4BFCA8E96C7167F4DE6B5423F1582FB (void);
+extern void ColorSensorManager__ctor_m6AE185BFF5FF15DC2308B01F1B51CC914A92D812 (void);
+extern void ContactSensorManager_GetReading_m994C62EECF8AF3E16BECDB6884991FF58B377A21 (void);
+extern void ContactSensorManager_OnTriggerEnter_m3F41E1874F8751F68FAFEA7418AEFFACE7507DBB (void);
+extern void ContactSensorManager_OnTriggerExit_m60AE9789140A2EC7F5ACF2910691ACBB5D05205B (void);
+extern void ContactSensorManager__ctor_m97F04EA250B032E99230F80C639AA65A1C8FA036 (void);
+extern void GenericSensorManager_Start_m7408D3D3CF0244576C12F57A3C059444E5F97E62 (void);
+extern void GenericSensorManager_Update_mF047132CE0C912ABB2D2440D3A5461A5E56E4ECD (void);
+extern void GenericSensorManager_GetName_m44066C6B264E5EEC60EB844A7F68A4FF8836020D (void);
+extern void GenericSensorManager__ctor_mBBBCB2A28BD78F8C980BB2EBB518500B05C94FBA (void);
+extern void GyroscopeSensorManager_GetReading_mF0FFCFC4E7A81388FED2930C71B8F5B53C89C512 (void);
+extern void GyroscopeSensorManager__ctor_mC532B00B2C68491760248D8E6CB0D83D9300DB69 (void);
+extern void InfraredSensorManager_GetReading_m67EE3DD4839DAEF53012BAAB4A973A072BC69182 (void);
+extern void InfraredSensorManager__ctor_m7DA3782D854459057859082991FBDD2B9673054B (void);
+extern void UltrasoundSensorManager_GetReading_m6CDB05CE161347BEF7F186710D6B71282A0754BC (void);
+extern void UltrasoundSensorManager__ctor_m3B3319F54B2DAD30CB57050458009535CBBF2CB5 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAFF091BCAABFA570198F2B1814F0FF46464AE456 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC7C2CF9B56D7EA9A00A8B599D06215F95F4EF0B1 (void);
+static Il2CppMethodPointer s_methodPointers[19] = 
+{
+	ColorSensorManager_GetReading_m42860A91D4BFCA8E96C7167F4DE6B5423F1582FB,
+	ColorSensorManager__ctor_m6AE185BFF5FF15DC2308B01F1B51CC914A92D812,
+	ContactSensorManager_GetReading_m994C62EECF8AF3E16BECDB6884991FF58B377A21,
+	ContactSensorManager_OnTriggerEnter_m3F41E1874F8751F68FAFEA7418AEFFACE7507DBB,
+	ContactSensorManager_OnTriggerExit_m60AE9789140A2EC7F5ACF2910691ACBB5D05205B,
+	ContactSensorManager__ctor_m97F04EA250B032E99230F80C639AA65A1C8FA036,
+	GenericSensorManager_Start_m7408D3D3CF0244576C12F57A3C059444E5F97E62,
+	GenericSensorManager_Update_mF047132CE0C912ABB2D2440D3A5461A5E56E4ECD,
+	NULL,
+	GenericSensorManager_GetName_m44066C6B264E5EEC60EB844A7F68A4FF8836020D,
+	GenericSensorManager__ctor_mBBBCB2A28BD78F8C980BB2EBB518500B05C94FBA,
+	GyroscopeSensorManager_GetReading_mF0FFCFC4E7A81388FED2930C71B8F5B53C89C512,
+	GyroscopeSensorManager__ctor_mC532B00B2C68491760248D8E6CB0D83D9300DB69,
+	InfraredSensorManager_GetReading_m67EE3DD4839DAEF53012BAAB4A973A072BC69182,
+	InfraredSensorManager__ctor_m7DA3782D854459057859082991FBDD2B9673054B,
+	UltrasoundSensorManager_GetReading_m6CDB05CE161347BEF7F186710D6B71282A0754BC,
+	UltrasoundSensorManager__ctor_m3B3319F54B2DAD30CB57050458009535CBBF2CB5,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAFF091BCAABFA570198F2B1814F0FF46464AE456,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC7C2CF9B56D7EA9A00A8B599D06215F95F4EF0B1,
+};
+static const int32_t s_InvokerIndices[19] = 
+{
+	10012,
+	10181,
+	10012,
+	8127,
+	8127,
+	10181,
+	10181,
+	10181,
+	-1,
+	10012,
+	10181,
+	10012,
+	10181,
+	10012,
+	10181,
+	10012,
+	10181,
+	14653,
+	10181,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_ScriptsSensors_CodeGenModule;
+const Il2CppCodeGenModule g_ScriptsSensors_CodeGenModule = 
+{
+	"ScriptsSensors.dll",
+	19,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

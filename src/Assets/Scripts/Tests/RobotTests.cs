@@ -1,3 +1,14 @@
+/**
+* Universidad de La Laguna
+* Proyecto: Roblockly-Android
+* Autor: Thomas Edward Bradley
+* Email: alu0101408248@ull.edu.es
+* Fecha: 12/04/2025
+* Descripcion: 
+*/
+
+#if UNITY_EDITOR
+
 using System.Collections;
 using NUnit.Framework;
 using UnityEngine;
@@ -76,3 +87,6 @@ public class RobotTests
         Assert.False(robotManager.GetComponent<RobotManager>().HasSensor("SensorTest02"));
     }
 }
+
+
+#endif
