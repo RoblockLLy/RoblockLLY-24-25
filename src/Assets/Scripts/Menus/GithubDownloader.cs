@@ -4,7 +4,7 @@
 * Autor: Thomas Edward Bradley
 * Email: alu0101408248@ull.edu.es
 * Fecha: 28/06/2025
-* Descripcion: 
+* Descripcion: Clases para la descarga de niveles personalizados del repositorio para los mismos
 */
 
 using System;
@@ -12,6 +12,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+
+#region Clases Aux
+
+[Serializable]
+public class GitHubFileInfo {
+  public string name;
+}
+
+[Serializable]
+public class GitHubContentFile {
+  public string content;
+}
+
+public static class JsonHelper {
+  public static T[] GetJsonArray<T>(string json) {
+    string newJson = "{ \"array\": " + json + "}";
+    Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(newJson);
+    return wrapper.array;
+  }
+
+  [Serializable]
+  private class Wrapper<T> {
+    public T[] array;
+  }
+}
+
+#endregion
 
 public class GithubDownloader : MonoBehaviour {
   
@@ -36,7 +63,7 @@ public class GithubDownloader : MonoBehaviour {
   public LevelViewer levelViewer;
 
   [Header("Loading Panel")]
-  [SerializeField] [Tooltip("")]
+  [SerializeField] [Tooltip("Panel de carga, activa mientras corre la corutina")]
   public GameObject loadingPanel;
 
   /// <summary>
@@ -50,10 +77,18 @@ public class GithubDownloader : MonoBehaviour {
     DownloadAllLevels();
   }
 
+  #region Lectura Repo
+
+  /// <summary>
+  /// Comienza la corutina para descargar todos los niveles del repositorio
+  /// </summary>
   public void DownloadAllLevels() {
     StartCoroutine(DownloadLevelsCoroutine());
   }
 
+  /// <summary>
+  /// Corutina encargado de descargar todos los niveles personalizados de nuestro repositorio GitHub
+  /// </summary>
   private IEnumerator DownloadLevelsCoroutine() {
     loadingPanel.SetActive(true);
     string url = $"https://api.github.com/repos/{repoOwner}/{repoName}/contents/{levelsFolder}?ref={branch}";
@@ -67,7 +102,7 @@ public class GithubDownloader : MonoBehaviour {
     yield return request.SendWebRequest();
 
     if (request.result != UnityWebRequest.Result.Success) {
-      Debug.LogError("❌ Error fetching file list: " + request.error);
+      Debug.LogError("Error al pillar la lista de niveles: " + request.error);
       loadingPanel.SetActive(false);
       yield break;
     }
@@ -84,9 +119,14 @@ public class GithubDownloader : MonoBehaviour {
     levelJsonFiles = jsonFiles;
     levelViewer.setLevels(levelJsonFiles);
     loadingPanel.SetActive(false);
-    Debug.Log($"✅ Downloaded {levelJsonFiles.Count} level(s) from GitHub");
+    Debug.Log($"Se han descargado exitosamente {levelJsonFiles.Count} niveles de GitHub");
   }
 
+  /// <summary>
+  /// Corutina encargado de leer el contenido de un fichero especificado
+  /// </summary>
+  /// <param name="fileName">Nombre del fichero a leer</param>
+  /// <param name="jsonFiles">Lista con el contenido de todos los niveles, se actualiza al final de la corutina</param>
   private IEnumerator DownloadFileContent(string fileName, List<string> jsonFiles) {
     string fileApiUrl = $"https://api.github.com/repos/{repoOwner}/{repoName}/contents/{levelsFolder}/{fileName}?ref={branch}";
 
@@ -99,7 +139,7 @@ public class GithubDownloader : MonoBehaviour {
     yield return fileRequest.SendWebRequest();
 
     if (fileRequest.result != UnityWebRequest.Result.Success) {
-      Debug.LogWarning($"⚠️ Failed to download file: {fileName}, Error: {fileRequest.error}");
+      Debug.LogWarning($"Mo se ha podido descargar el fichero: {fileName}, Error: {fileRequest.error}");
       yield break;
     }
 
@@ -109,33 +149,21 @@ public class GithubDownloader : MonoBehaviour {
       string decodedContent = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(fileInfo.content));
       jsonFiles.Add(decodedContent);
     } catch (Exception e) {
-      Debug.LogWarning($"⚠️ Error decoding file {fileName}: {e.Message}");
+      Debug.LogWarning($"Error al decifrar el fichero {fileName}: {e.Message}");
     }
   }
 
-  [Serializable]
-  public class GitHubFileInfo {
-    public string name;
-  }
+  #endregion
 
-  [Serializable]
-  public class GitHubContentFile {
-    public string content;
-  }
+  #region Metodos Aux
 
-  public static class JsonHelper {
-    public static T[] GetJsonArray<T>(string json) {
-      string newJson = "{ \"array\": " + json + "}";
-      Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(newJson);
-      return wrapper.array;
-    }
-
-    [Serializable]
-    private class Wrapper<T> {
-      public T[] array;
-    }
-  }
-
+  /// <summary>
+  /// Asegura que un json puede ser parseado como un json array
+  /// </summary>
+  /// <param name="rawJsonArray">string json de entrada</param>
+  /// <returns>string json procesado, array vacio si se ha encontrado algun problema</returns>
   private string FixJsonArray(string rawJsonArray) => rawJsonArray.TrimStart().StartsWith("[") ? rawJsonArray : "[]";
+
+  #endregion
 
 }
