@@ -1,26 +1,35 @@
 /**
 * Universidad de La Laguna
 * Proyecto: Roblockly
-* Autor: Edwin Plasencia Hernández
+* Autor: Edwin Plasencia Hernï¿½ndez, Thomas Edward Bradley
 * Email: alu0101329888@ull.edu.es
-* Fecha: 13/05/2024
-* Descripción: RobotCameraHandleRotator: Script simple para rotar la cámara con el ratón sobre el robot
+* Fecha: 13/05/2024, 01/07/2025
+* Descripciï¿½n: RobotCameraHandleRotator: Script simple para rotar la cï¿½mara con el ratï¿½n sobre el robot
 */
 
 using UnityEngine;
 
 public class RobotCameraHandleRotator : MonoBehaviour {
-    public float sensitivity = 100.0f;
-    public GameObject yTransformHandler;
+  public float sensitivity = 100.0f;
+  private float verticalRotation = 0f; // Store vertical (pitch) rotation in degrees
+  public float upperLimit = 30f;
+  public float lowerLimit = -80f;
+  public GameObject yTransformHandler;
 
-    void Start() {}
+  /// <summary>
+  /// Se obtiene la posicion en el eje 'x' e 'y' del raton y se rota la camara correspondientemente
+  /// </summary>
+  void Update() {
+    if (Input.GetMouseButton(0)) {
+      float rotationX = Input.GetAxis("Mouse X") * Mathf.Deg2Rad * sensitivity;
+      transform.Rotate(0, rotationX, 0);
 
-    void Update() { // Se obtiene la posición en el eje x e y del ratón y se rota la cámara correspondientemente
-        if (Input.GetMouseButton(0)) {
-            float rotationX = Input.GetAxis("Mouse X") * Mathf.Deg2Rad * sensitivity;
-            transform.Rotate(0, rotationX, 0);
-            float rotationY = Input.GetAxis("Mouse Y") * Mathf.Deg2Rad * sensitivity;
-            yTransformHandler.transform.Rotate(-rotationY, 0, 0);
-        }
+      float rotationY = Input.GetAxis("Mouse Y") * Mathf.Deg2Rad * sensitivity;
+      verticalRotation -= rotationY;
+      verticalRotation = Mathf.Clamp(verticalRotation, lowerLimit, upperLimit);
+      
+      // Apply pitch rotation with clamping
+      yTransformHandler.transform.localEulerAngles = new Vector3(verticalRotation, 0, 0);
     }
+  }
 }

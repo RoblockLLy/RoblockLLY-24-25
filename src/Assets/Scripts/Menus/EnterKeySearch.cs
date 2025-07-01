@@ -1,6 +1,6 @@
 /**
 * Universidad de La Laguna
-* Proyecto: Roblockly-Android
+* Proyecto: Roblockly
 * Autor: Thomas Edward Bradley
 * Email: alu0101408248@ull.edu.es
 * Fecha: 29/06/2025
