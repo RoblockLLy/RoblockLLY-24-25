@@ -1,9 +1,11 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="ClipboardManager" preserve="nothing"/>
 		<type fullname="CommsManager" preserve="nothing"/>
 		<type fullname="CreatorPanelMenuManager" preserve="nothing"/>
 		<type fullname="CustomLevelLoad" preserve="nothing"/>
 		<type fullname="ElevatorInteractable" preserve="nothing"/>
+		<type fullname="EnterKeyListener" preserve="nothing"/>
 		<type fullname="FlagBehaviour" preserve="nothing"/>
 		<type fullname="FlagBlock" preserve="nothing"/>
 		<type fullname="GenericActiveInteractable" preserve="nothing"/>

@@ -16,10 +16,12 @@ ScriptsOnlyBuild:
     - UBlockly.UGUI.ProcedureDefinitionMutatorDialog
     - UBlockly.UGUI.VariableNameDialog
     Assembly-CSharp.dll:
+    - ClipboardManager
     - CommsManager
     - CreatorPanelMenuManager
     - CustomLevelLoad
     - ElevatorInteractable
+    - EnterKeyListener
     - FlagBehaviour
     - FlagBlock
     - GenericActiveInteractable
@@ -469,6 +471,9 @@ ScriptsOnlyBuild:
     fullTypeName: SettingsMenuManager
     methodName: QuitGame
   - assembly: Assembly-CSharp
+    fullTypeName: ClipboardManager
+    methodName: TriggerPaste
+  - assembly: Assembly-CSharp
     fullTypeName: SettingsMenuManager
     methodName: CloseMenu
   - assembly: Assembly-CSharp
@@ -576,6 +581,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SettingsMenuManager
     methodName: CloseChallengeStats
+  - assembly: Assembly-CSharp
+    fullTypeName: ClipboardManager
+    methodName: TriggerPaste
   - assembly: Assembly-CSharp
     fullTypeName: SettingsMenuManager
     methodName: LevelMenu
@@ -3121,6 +3129,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 40060}
     - Class: 114
       Script: {instanceID: 40142}
+    - Class: 114
+      Script: {instanceID: 1202928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3331,6 +3341,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 40060}
     - Class: 114
       Script: {instanceID: 40142}
+    - Class: 114
+      Script: {instanceID: 1202928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3416,6 +3428,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 117272}
     - Class: 114
       Script: {instanceID: 203452}
+    - Class: 114
+      Script: {instanceID: 686530}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -5245,6 +5259,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LevelViewer
+  - hash:
+      serializedVersion: 2
+      Hash: ba78df2df25e0cac1ac9f2b5b7572ae2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnterKeyListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8cdf4f5d019128a0b812ab8a486e8ae7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ClipboardManager
   platform: 20
   scenePathNames:
   - Assets/Scenes/Menus/0-MainMenu.unity

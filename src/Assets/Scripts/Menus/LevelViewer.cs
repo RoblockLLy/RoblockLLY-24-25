@@ -81,6 +81,7 @@ public class LevelViewer : MonoBehaviour {
   private void refreshLevelViewer() {
     cleanViewerSpace();   // Primero eliminamos todos los elementos actuales del panel
     List<string> levelList = (filteredList != null && filteredList.Count > 0) ? filteredList : fullLevelList;   // Si tenemos aplicado algun filtro, usamos la lista reducida 
+    levelList = levelList.OrderBy(json => JObject.Parse(json)["environment"]?["level_name"]?.ToString()).ToList();  // Ordenar alfabeticamente
 
     levelPanelParent.GetComponent<RectTransform>().sizeDelta = new Vector2(0f, (100 * levelList.Count) + 20);   // Longitud del espacio de 'scroll'
     

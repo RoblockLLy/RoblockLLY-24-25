@@ -38008,7 +38008,7 @@
       "DisplayName": "Writing 8995565923215908413.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 190263,
-      "PayloadLength": 16801,
+      "PayloadLength": 16853,
       "PayloadDebugContentSnippet": "-sEXPORTED_RUNTIME_METHODS=['a",
       "Inputs": [],
       "InputFlags": [],
@@ -38129,12 +38129,14 @@
         "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityPlayer.WebGLModule_Dynamic.a",
         "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityPlayer.WindModule_Dynamic.a",
         "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityPlayer.XRModule_Dynamic.a",
+        "Assets/Plugins/ClipboardPlugin.jslib",
         "Assets/WebGLCopyAndPaste/Plugins/WebGLCopyAndPaste.jslib",
         "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
         "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
         "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
       ],
       "InputFlags": [
+        0,
         0,
         0,
         0,
@@ -38303,7 +38305,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info",
       "DisplayName": "Writing build.framework.js_mumr.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 207160,
+      "PayloadOffset": 207212,
       "PayloadLength": 626,
       "PayloadDebugContentSnippet": "{\"WebGLPlayerBuildProgram.Fram",
       "Inputs": [],
@@ -38460,7 +38462,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 207874,
+      "PayloadOffset": 207926,
       "PayloadLength": 1920,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
@@ -38566,7 +38568,7 @@
     {
       "Annotation": "PreprocessJS Library/Bee/artifacts/WebGLBuild.loader.js",
       "DisplayName": "Preprocessing JavaScript WebGLBuild.loader.js",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='E\\x3a/Unity Projects/GitHub Projects/RoblockLLY\\x2d24\\x2d25/src/Library/Bee/artifacts/WebGLBuild.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='ULL'\" \"PRODUCT_NAME='Roblocklly\\x5fEPH'\" \"PRODUCT_VERSION='11.0.4'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Build.data'\" \"FRAMEWORK_FILENAME='Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_WASM2023=false\" \"USE_THREADS=false\" \"USE_WEBGL_2_0=true\" \"USE_WEBGPU=false\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='6000.0.33f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"WASM_SIZE='51093416'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='E\\x3a/Unity Projects/GitHub Projects/RoblockLLY\\x2d24\\x2d25/src/Library/Bee/artifacts/WebGLBuild.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='ULL'\" \"PRODUCT_NAME='Roblocklly\\x5fTEB'\" \"PRODUCT_VERSION='12.0.0'\" \"WIDTH=1440\" \"HEIGHT=900\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Build.data'\" \"FRAMEWORK_FILENAME='Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_WASM2023=false\" \"USE_THREADS=false\" \"USE_WEBGL_2_0=true\" \"USE_WEBGPU=false\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='6000.0.33f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"WASM_SIZE='51094225'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -38619,9 +38621,9 @@
     {
       "Annotation": "PreprocessJS C:/Users/Usuario/Downloads/Build/index.html",
       "DisplayName": "Preprocessing JavaScript index.html",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/Usuario/Downloads/Build/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='ULL'\" \"PRODUCT_NAME='Roblocklly\\x5fEPH'\" \"PRODUCT_VERSION='11.0.4'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Build.data'\" \"FRAMEWORK_FILENAME='Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_WASM2023=false\" \"USE_THREADS=false\" \"USE_WEBGL_2_0=true\" \"USE_WEBGPU=false\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='6000.0.33f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"  \"LOADER_FILENAME='Build.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='E\\x3a/Unity Projects/GitHub Projects/RoblockLLY\\x2d24\\x2d25/src/Assets/WebGLTemplates/DefaultCustom/index.html'\"  \"locals.outputPath='C\\x3a/Users/Usuario/Downloads/Build/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='ULL'\" \"PRODUCT_NAME='Roblocklly\\x5fTEB'\" \"PRODUCT_VERSION='12.0.0'\" \"WIDTH=1440\" \"HEIGHT=900\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Build.data'\" \"FRAMEWORK_FILENAME='Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_WASM2023=false\" \"USE_THREADS=false\" \"USE_WEBGL_2_0=true\" \"USE_WEBGPU=false\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='6000.0.33f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"  \"LOADER_FILENAME='Build.loader.js'\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/index.html"
       ],
       "InputFlags": [
         0
@@ -38645,7 +38647,7 @@
       "DisplayName": "Copying favicon.ico",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/favicon.ico"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/favicon.ico"
       ],
       "InputFlags": [
         0
@@ -38667,7 +38669,7 @@
       "DisplayName": "Copying fullscreen-button.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/fullscreen-button.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/fullscreen-button.png"
       ],
       "InputFlags": [
         0
@@ -38689,7 +38691,7 @@
       "DisplayName": "Copying MemoryProfiler.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/MemoryProfiler.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/MemoryProfiler.png"
       ],
       "InputFlags": [
         0
@@ -38711,7 +38713,7 @@
       "DisplayName": "Copying progress-bar-empty-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-dark.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/progress-bar-empty-dark.png"
       ],
       "InputFlags": [
         0
@@ -38733,7 +38735,7 @@
       "DisplayName": "Copying progress-bar-empty-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-light.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/progress-bar-empty-light.png"
       ],
       "InputFlags": [
         0
@@ -38755,7 +38757,7 @@
       "DisplayName": "Copying progress-bar-full-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-dark.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/progress-bar-full-dark.png"
       ],
       "InputFlags": [
         0
@@ -38777,7 +38779,7 @@
       "DisplayName": "Copying progress-bar-full-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-light.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/progress-bar-full-light.png"
       ],
       "InputFlags": [
         0
@@ -38797,9 +38799,9 @@
     {
       "Annotation": "PreprocessJS C:/Users/Usuario/Downloads/Build/TemplateData/style.css",
       "DisplayName": "Preprocessing JavaScript style.css",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/Usuario/Downloads/Build/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='ULL'\" \"PRODUCT_NAME='Roblocklly\\x5fEPH'\" \"PRODUCT_VERSION='11.0.4'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Build.data'\" \"FRAMEWORK_FILENAME='Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_WASM2023=false\" \"USE_THREADS=false\" \"USE_WEBGL_2_0=true\" \"USE_WEBGPU=false\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='6000.0.33f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"  \"LOADER_FILENAME='Build.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='E\\x3a/Unity Projects/GitHub Projects/RoblockLLY\\x2d24\\x2d25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/Usuario/Downloads/Build/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='ULL'\" \"PRODUCT_NAME='Roblocklly\\x5fTEB'\" \"PRODUCT_VERSION='12.0.0'\" \"WIDTH=1440\" \"HEIGHT=900\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Build.data'\" \"FRAMEWORK_FILENAME='Build.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Build.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_WASM2023=false\" \"USE_THREADS=false\" \"USE_WEBGL_2_0=true\" \"USE_WEBGPU=false\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='6000.0.33f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"  \"LOADER_FILENAME='Build.loader.js'\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/style.css"
       ],
       "InputFlags": [
         0
@@ -38823,7 +38825,7 @@
       "DisplayName": "Copying unity-logo-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-dark.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/unity-logo-dark.png"
       ],
       "InputFlags": [
         0
@@ -38845,7 +38847,7 @@
       "DisplayName": "Copying unity-logo-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-light.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/unity-logo-light.png"
       ],
       "InputFlags": [
         0
@@ -38867,7 +38869,7 @@
       "DisplayName": "Copying unity-logo-title-footer.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-title-footer.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/unity-logo-title-footer.png"
       ],
       "InputFlags": [
         0
@@ -38889,7 +38891,7 @@
       "DisplayName": "Copying webmemd-icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/webmemd-icon.png"
+        "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom/TemplateData/webmemd-icon.png"
       ],
       "InputFlags": [
         0
@@ -39240,11 +39242,11 @@
       "Filter": "*.js"
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default",
-      "Recurse": 1
+      "Path": "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Tools/BuildPipeline"
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "E:/Unity Projects/GitHub Projects/RoblockLLY-24-25/src/Assets/WebGLTemplates/DefaultCustom",
+      "Recurse": 1
     },
     {
       "Path": "Library/PlayerDataCache/WebGL/Data",

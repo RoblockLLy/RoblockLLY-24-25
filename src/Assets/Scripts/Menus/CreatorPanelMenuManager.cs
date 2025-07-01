@@ -1,18 +1,12 @@
-
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CreatorPanelMenuManager : MonoBehaviour {
-
     public InputField xDimension;
     public InputField yDimension;
     public TMP_InputField codeInput;
-
-    void Start() { }
-
-    void Update() { }
 
     public void LoadScene(int sceneName) {
         SceneManager.LoadScene(sceneName);

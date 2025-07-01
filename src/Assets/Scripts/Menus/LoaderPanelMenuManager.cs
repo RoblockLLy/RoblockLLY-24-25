@@ -2,6 +2,7 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,14 +10,6 @@ using TMPro;
 
 public class LoaderPanelMenuManager : MonoBehaviour {
     public TMP_InputField codeInput;
-
-    void Start() {
-        
-    }
-
-    void Update() {
-        
-    }
 
     public void LoadFromCode() {
         JObject level;

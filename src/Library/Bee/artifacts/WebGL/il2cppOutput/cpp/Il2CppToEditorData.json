@@ -6,6 +6,10 @@
     },
     {
       "Type": 0,
+      "Text": "[Unity.ProBuilder] - System.Void UnityEngine.ProBuilder.ColorUtility::.cctor() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+      "Type": 0,
       "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - Method was given it\u0027s own cpp file because it is large and costly to compile"
     },
     {
@@ -18,7 +22,35 @@
     },
     {
       "Type": 0,
-      "Text": "[Unity.ProBuilder] - System.Void UnityEngine.ProBuilder.ColorUtility::.cctor() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - High Variable Count of 216"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - High Instruction Count of 9702"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - High CodeSize of 29806"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - High Variable Count of 221"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - High Instruction Count of 9793"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - High CodeSize of 30085"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - High Instruction Count of 10579"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - High CodeSize of 31711"
     },
     {
       "Type": 0,
@@ -59,38 +91,6 @@
     {
       "Type": 0,
       "Text": "[mscorlib] - System.Void System.Security.Cryptography.RIPEMD160Managed::MDTransform(System.UInt32*,System.UInt32*,System.Byte*) - High Instruction Count of 5579"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - High Variable Count of 216"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - High Instruction Count of 9702"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - High CodeSize of 29806"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - High Variable Count of 221"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - High Instruction Count of 9793"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - High CodeSize of 30085"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - High Instruction Count of 10579"
-    },
-    {
-      "Type": 0,
-      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - High CodeSize of 31711"
     },
     {
       "Type": 0,

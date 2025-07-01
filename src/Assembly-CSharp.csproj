@@ -147,6 +147,7 @@
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\CSharp\Generators\Text_CSharp.cs" />
     <Compile Include="Assets\Scripts\Levels\Managers\RobotCameraHandleRotator.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\WorkspaceView.cs" />
+    <Compile Include="Assets\Scripts\Menus\ClipboardManager.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Dialogs\MutatorDialogs\ItemListMutatorDialog.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
